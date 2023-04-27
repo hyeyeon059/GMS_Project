@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     public bool CanPlayerMove = true;
     public void Delay(float delay,Action action) => StartCoroutine(SetDelay(delay, action));
 
+
     private void Awake()
     {
         if (Instance != null)

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -8,6 +9,10 @@ public class CameraSet : MonoBehaviour
     [SerializeField]
     Volume volume;
     Vignette vignette;
+    //Player 
+
+    void Floormove(int value=0) => StartCoroutine(AutoFloorFading(value));
+
     private void Awake()
     {
         volume.profile.TryGet<Vignette>(out vignette);
@@ -17,7 +22,7 @@ public class CameraSet : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
         {
-            Fades(3,1);
+            Fades(1,1);
         }
         if (Input.GetMouseButtonDown(1))
         {
@@ -25,7 +30,7 @@ public class CameraSet : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.U))
         {
-            AutoFloorFading();
+            Floormove(1);
         }
     }
 
@@ -34,31 +39,31 @@ public class CameraSet : MonoBehaviour
     {
         Vector2 endvect = new Vector2(0.5f, endvalue);
         StartCoroutine(Setfadevect(0, vignette.center.value, endvect));
-        StartCoroutine(Setfadeinten(time,vignette.intensity.value,endvalue));
-        StartCoroutine(Setfadevect(6,vignette.center.value, new Vector2(0.5f,0.5f)));
-        StartCoroutine(Setfadeinten(time, vignette.intensity.value, 0,waitingtime:6f));
+        StartCoroutine(Setfadeinten(time,vignette.intensity.value,endvalue));  
+        StartCoroutine(Setfadevect(2,vignette.center.value, new Vector2(0.5f,0.5f)));
+        StartCoroutine(Setfadeinten(time, vignette.intensity.value, 0,waitingtime:2f));
     }
 
     //층이동시 페이드 자동 완성
-    void AutoFloorFading()
+    public IEnumerator AutoFloorFading(int floor=0)
     {
-        vignette.rounded.value = true;
-        StartCoroutine(Setfadevect(3,vignette.center.value, new Vector2(0.5f, 1f)));
-        StartCoroutine(Setfadeinten(3, vignette.intensity.value, 1,5));
-        StartCoroutine(Setfadevect(9, vignette.center.value, new Vector2(0.5f, 0.5f)));
+        GameManager.Instance.RoomChanging = true;
+        StartCoroutine(Setfadeinten(1.5f, vignette.intensity.value, 1));
+        yield return StartCoroutine(Setfadevect(0, vignette.center.value, new Vector2(0.5f, 1)));
+        vignette.center.value = new Vector2(Setvect(vignette.center.value.x), Setvect(vignette.center.value.y));
+        //player.transform.position = GameManager.Instance.FloorPos(floor);
+        StartCoroutine(Setfadeinten(1.5f, vignette.intensity.value, 0, waitingtime: 2f));
+        StartCoroutine(Setfadevect(1.5f, vignette.center.value, new Vector2(0.5f, 0.5f)));
     }
 
-    //층이동 할때 카메라 페이딩(pp사용, 빛효과)     //모드 == 5 일때는 그냥 자동저장된것 불러오기
-    IEnumerator Setfadeinten(float settime,float startvalue, float endvalue,int mode = 0,float waitingtime = 0) 
+    //층이동 할때 카메라 페이딩(pp사용, 빛효과)
+    //settime => 재생시간/2, startvaule => 이코드 실행시의 vignette.intensity.value , endvalue => 변환하고자 하는값 
+    //waitingtime => fade 실행까지의 시간
+    IEnumerator Setfadeinten(float settime,float startvalue, float endvalue,float waitingtime = 0) 
     {
         yield return new WaitForSeconds(waitingtime);
         float nowtime=0;
-        float setvalue = startvalue,smoothvalue = vignette.smoothness.value
-                        ,nextsmooth = -0.05f;
-        if (endvalue == 0)
-            nextsmooth = 0.05f / settime;
-        if (mode == 5)
-            vignette.center.value = new Vector2(0.5f, 0.5f);
+        float setvalue = startvalue;
         while(setvalue != endvalue)
         {
             nowtime += 0.05f;
@@ -67,18 +72,12 @@ public class CameraSet : MonoBehaviour
             vignette.intensity.value = setvalue;
             yield return new WaitForSeconds(0.05f);
         }
-        if (mode == 5)
-        {
-            yield return new WaitForSeconds(9f);
-            StartCoroutine(Setfadeinten(3,vignette.intensity.value, 0));
-        }
     }
 
     //페이드 풀릴때 풀리기 시작하는부분 조정
     // X좌표 수정할때 이상하면 부르기 (멘션/DM pjh)
     IEnumerator Setfadevect(float time, Vector2 startvalue, Vector2 endvalue)  
     {
-        vignette.center.value = new Vector2(vignette.center.value.x, vignette.center.value.y*-1);
         yield return new WaitForSeconds(time);
         Vector2 setvalue = startvalue;
         float nowtime=0;
@@ -100,11 +99,20 @@ public class CameraSet : MonoBehaviour
         }
         while (setvalue != endvalue)
         {
-            nowtime += 0.05f;
+            nowtime += 0.1f;
             setvalue = new Vector2(Mathf.Lerp(startvalue.x, endvalue.x, (1 - Mathf.Pow(1 - nowtime, 3)) / 1), Mathf.Lerp(startvalue.y, endvalue.y, (1 - Mathf.Pow(1 - nowtime, 3)) / 1));
             vignette.center.value = setvalue;
             yield return new WaitForSeconds(0.1f);
         }
-        //vignette.center.value = new Vector2(setvalue.x , -setvalue.y);
+    }
+
+    float Setvect(float value)
+    {
+        return value switch
+        {
+            >= 1 => -1.5f,
+            <= 0 => 1.5f,
+            _ => value
+        };
     }
 }

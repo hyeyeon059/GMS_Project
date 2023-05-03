@@ -1,0 +1,21 @@
+.btn {
+    background-color: rgba(128, 138, 142, 255);
+}
+
+.btn:hover {
+    color: rgba(255, 255, 255, 255);
+    background-color: rgba(138, 206, 233, 255);
+}
+
+.Popup {
+    flex-grow: 0.2;
+    flex-basis: 0;
+}
+
+.Popup > #PopupBtn {
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    top: 0;
+    bottom: 0;
+}

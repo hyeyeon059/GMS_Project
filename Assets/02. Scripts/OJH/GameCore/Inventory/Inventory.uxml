@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Inventory/Inventory.uss?fileID=7433441132597879392&amp;guid=81f2260832addf040888b7bf784cf008&amp;type=3#Inventory" />
+    <ui:VisualElement name="Inventory" style="position: absolute; left: 0; right: 0; top: 95%; bottom: -20%;">
+        <ui:VisualElement name="PopDown" class="Popup">
+            <ui:Button text="팝업열기" display-tooltip-when-elided="true" name="PopupBtn" class="btn" style="font-size: 30px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Popup" />
+    </ui:VisualElement>
+</ui:UXML>

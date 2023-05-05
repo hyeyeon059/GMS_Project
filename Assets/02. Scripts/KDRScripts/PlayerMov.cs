@@ -13,6 +13,7 @@ public class PlayerMov : MonoBehaviour
     float y;
     void Start()
     {
+        GameManager.Instance.Player = this.gameObject;
         rb2d = GetComponent<Rigidbody2D>();
         light = transform.GetChild(0).gameObject;
     }

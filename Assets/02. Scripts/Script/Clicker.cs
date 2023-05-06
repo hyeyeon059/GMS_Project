@@ -4,27 +4,30 @@ using UnityEngine;
 
 public class Clicker : MonoBehaviour
 {
-    static int click = 13;
+    public static int click = 10;
+    public int Click = click;
 
-    [SerializeField] AudioSource audio;
-    void Start()
+    [SerializeField] 
+    AudioSource audio;
+
+    [SerializeField]
+    GameObject endClick;
+    
+    public void Init()
     {
-        
+        click = 10;
     }
 
-
-    void Update()
-    {
-        
-    }
     private void OnMouseDown()
     {
-        audio.Play();
+        //audio.Play();
 
         click--;
         if (click == 0)
         {
-            Destroy(gameObject);
+            this.gameObject.SetActive(false);
+            endClick.SetActive(true);
         }
+        Click = click;
     }
 }

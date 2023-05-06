@@ -1,21 +1,29 @@
 .btn {
-    background-color: rgba(128, 138, 142, 255);
+    background-color: rgb(128, 138, 142);
 }
 
 .btn:hover {
-    color: rgba(255, 255, 255, 255);
-    background-color: rgba(138, 206, 233, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(138, 206, 233);
 }
 
-.Popup {
+.PopDown {
     flex-grow: 0.2;
     flex-basis: 0;
 }
 
-.Popup > #PopupBtn {
+.PopDown > #PopupBtn {
     position: absolute;
     left: 40%;
     right: 40%;
     top: 0;
     bottom: 0;
+}
+
+.PopUp {
+    bottom: 200px;
+    transition-property: position;
+    transition-timing-function: ease-out;
+    transition-duration: 0.8s;
+    background-color: rgba(255, 0, 0, 255);
 }

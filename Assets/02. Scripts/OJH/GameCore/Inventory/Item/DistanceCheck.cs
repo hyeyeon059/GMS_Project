@@ -9,18 +9,18 @@ public class DistanceCheck : MonoBehaviour
     int ItemInfo;
 
 
-    //[SerializeField]
-    //AudioSource audioSource;
+    [SerializeField]
+    AudioSource audioSource;
     
     [SerializeField]
     UnityEvent Event;
 
     private void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (GameManager.Instance.bPlayerMove)
         {
@@ -40,16 +40,15 @@ public class DistanceCheck : MonoBehaviour
         this.gameObject.SetActive(false);
     }
 
-    public void Clicker(GameObject clicker)
+    public void Clicker()
     {
-        clicker.gameObject.SetActive(true);
-        GameManager.Instance.bPlayerMove = false;
-        this.gameObject.SetActive(false);
+        this.gameObject.SetActive(true);
+
     }
 
     public void OnMouseDown()
     {
-        //audioSource.Play();
+        audioSource.Play();
         GetItem();
     }
 }

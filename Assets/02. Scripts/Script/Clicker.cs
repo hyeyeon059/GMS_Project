@@ -18,11 +18,6 @@ public class Clicker : MonoBehaviour
         click = 10;
     }
 
-    private void OnEnable()
-    {
-        click = 10;
-    }
-
     private void OnMouseDown()
     {
         //audio.Play();

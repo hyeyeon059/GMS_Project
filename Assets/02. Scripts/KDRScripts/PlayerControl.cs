@@ -8,7 +8,7 @@ public class PlayerControl : MonoBehaviour
 
     Rigidbody2D rb2d;
     GameObject _light;
-    GameObject lockPick;
+    //GameObject lockPick;
 
     bool lockpickHave = false;
 
@@ -24,14 +24,26 @@ public class PlayerControl : MonoBehaviour
     {
         rb2d = GetComponent<Rigidbody2D>();
         _light = transform.GetChild(0).gameObject;
-        lockPick = transform.GetChild(1).gameObject;
+        //lockPick = transform.GetChild(1).gameObject;
+    }
+
+    private void Start()
+    {
+        GameManager.Instance.Player = this.gameObject;
     }
 
     void Update()
     {
-        Move();
-        Rotation();
-        InteractionRay();
+        if (GameManager.Instance.bPlayerMove)
+        {
+            Move();
+            Rotation();
+            InteractionRay();
+        }
+        else
+        {
+            rb2d.velocity = Vector2.zero;
+        }
     }
 
     private void Move()
@@ -61,7 +73,7 @@ public class PlayerControl : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.F))
             {
                 lockpickHave = true;
-                lockPick.gameObject.SetActive(lockpickHave);
+                //lockPick.gameObject.SetActive(lockpickHave);
             }
         }
     }

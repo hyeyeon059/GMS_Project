@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
     public int NowFloor { get; set; }
 
-    [Header("Empty Object를 만들고 각층끼리 이어지는 지점에 놓는다")]
+    [Header("Empty Object를 만들고 collider와 floormove 스크립트를 넣고\n 그 오브젝트를 각 지점에 놓는다. (모르겠으면 pjh²로 DM)")]
     public List<GameObject> FloorPos = new List<GameObject>();
     public List<int> inventoryItem = new List<int>();
     public int usingItem;               //손에 든 아이템
@@ -34,11 +34,6 @@ public class GameManager : MonoBehaviour
         if (Instance != null)
             Debug.LogError("2gamemanager");
         Instance = this;
-    }
-
-    public void FloorChange()
-    {
-
     }
 
     public IEnumerator SetDelay(float delay,Action action)

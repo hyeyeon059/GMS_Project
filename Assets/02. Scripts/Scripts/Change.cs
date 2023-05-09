@@ -5,17 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Change : MonoBehaviour
 {
-    void Start()
+    public void LoadToMainScene()
     {
-        
-    }
-
-    void Update()
-    {
-        
-    }
-    public void ScreenChange()
-    {
-        SceneManager.LoadScene("PJH");
+        SceneManager.LoadScene("KHY");
     }
 }

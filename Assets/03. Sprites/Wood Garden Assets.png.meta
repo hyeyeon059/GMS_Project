@@ -1,0 +1,7669 @@
+fileFormatVersion: 2
+guid: 0d26a9f7672120d4fbca05d77e83032b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wood Garden Assets_0
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 396
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a799d710fb40444b8c916013232ee1
+      internalID: -806847158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_1
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 389
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9702d20458359824ca773c8b06a1088b
+      internalID: 1099051772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_2
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 344
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174e9bfd7c5356d4380a8e90a08c64e4
+      internalID: -683429641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_3
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 344
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216ef867d4ec22a4881f3ebfc8c0aa81
+      internalID: -426908965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_4
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 344
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5a25bb243f27e449328331430eee4f
+      internalID: 2090737282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_5
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 344
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2a7bca4d6b10846b6324c9ffe56bf4
+      internalID: 892609623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_6
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 369
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f79178ce28a4040b4b0401aed87ee2
+      internalID: 1767382092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_7
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 315
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3773b8d5d7b51eb42b121be3d3fbff22
+      internalID: 1523296877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_8
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 315
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97304a7bbb6ffd4bb7a52d37bbe606e
+      internalID: 726317453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_9
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 315
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f91ee0e8e503d499c9da5f0401de9c
+      internalID: 161515167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_10
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 382
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89d266d028e9d8438803df2982cf69f
+      internalID: -1393605392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_11
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 355
+        width: 59
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d94910d5c78a6d499c2792ada7c21c8
+      internalID: 728216355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_12
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 301
+        width: 59
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5481960c694f17a4fa2de9e4d752a9bd
+      internalID: 1936294601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_13
+      rect:
+        serializedVersion: 2
+        x: 2043
+        y: 376
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4ee0cc52c83624985ca9ae5524f8a3
+      internalID: 1758856561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_14
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 383
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8fbe7e25982fe4986f3b6035c0d441
+      internalID: 847936428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_15
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 379
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c598cfbe30128d04da9832fd1174b356
+      internalID: 364001383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_16
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 355
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa263163bed0ff4f8769d3ca420cf25
+      internalID: -1930790412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_17
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 353
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7a6efb891aba148ad3a6dd5eba7c37
+      internalID: 406297148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_18
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 353
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ede8bf899c780e4db423476ed8ee242
+      internalID: 286892670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_19
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 347
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85324c02e26a06d46af90b51e4815738
+      internalID: -202303018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_20
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 347
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfe84e68a035f747a8a3a8037b4d628
+      internalID: 1734115844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_21
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 347
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05de96b25151d346938311ae435fc91
+      internalID: -1546432978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_22
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 364
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6df62597382f34988857a3d18ce1b2
+      internalID: 671735555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_23
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 362
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0569dda11e9de694eab797e5f21f1f04
+      internalID: -1615009448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_24
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 322
+        width: 18
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05de7f309b820c4f934c38f3dae4151
+      internalID: -23031729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_25
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 322
+        width: 18
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7123613ba5986d943b8e98425ade454a
+      internalID: 902573843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_26
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 322
+        width: 18
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d30e7e3c09c6244ba547e9b8202555
+      internalID: -2101573954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_27
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 322
+        width: 18
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a740dc34caac047b2355357a1252be
+      internalID: -1677586358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_28
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 322
+        width: 18
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff982a11d8483b42a49c68ca77b7e1f
+      internalID: 436564237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_29
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 322
+        width: 18
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c83807fd74e7874385df8fde6aaba8a
+      internalID: 852531472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_30
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 375
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ce1e834bf9dd04b966824004f3ead7
+      internalID: -1520871092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_31
+      rect:
+        serializedVersion: 2
+        x: 2143
+        y: 372
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53ae3dad2c098c4a8bc2372e8fdb1a8
+      internalID: -2123492680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_32
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 354
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14395270e2f86d439e5a4d897d29392
+      internalID: -439129075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_33
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 365
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8245eedf9e6083f468fa84466e49fffa
+      internalID: -1805038583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_34
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 363
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c787c0183ca88469a9676e8a3b71be
+      internalID: -1278354169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_35
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 340
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaaddfd5138c0084aad77d9e31ca16fd
+      internalID: 1302671566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_36
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 340
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2e39aa506bb7f4bb1e89cb9bf7e548
+      internalID: 2047133328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_37
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 340
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1124532711bdb4e9d139a0297c3cf6
+      internalID: -1107789817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_38
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 340
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfcf23b5e4a646c45aa975f87f19badd
+      internalID: 652910159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_39
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 340
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e63fd837e0918458831b25e3175435
+      internalID: 1468696043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_40
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 340
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105f325e64204304fae59e4e7a9e706b
+      internalID: -458960569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_41
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 340
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4514db9931780f4c928ca8dcbaff585
+      internalID: -1844618592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_42
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 341
+        width: 59
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8411d778c8db14da6bb412fc6fbba9
+      internalID: 1702570696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_43
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 287
+        width: 59
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab77f1b3d60eec54db0329967fb1bd60
+      internalID: 1094486817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_44
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 362
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f16e19f46f9414ea4bdb72b202ae67
+      internalID: -619323899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_45
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 369
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a7db1542ea0a74ba881b9bd0436780
+      internalID: 211739547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_46
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 365
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc2eaf27c705154eb9bea9e907ba49f
+      internalID: 1501770471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_47
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 366
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a0b57975bb671459be30550637efce
+      internalID: -1341728367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_48
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 353
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa8be7ad7cc80643996a85443dca6e4
+      internalID: 1306447494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_49
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 352
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e667771c7fa0547be8631778a784ed
+      internalID: -1086714362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_50
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 349
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0853c1a3d38f6c441a1942b15f1ce90b
+      internalID: -1004960851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_51
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 343
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b09c2c678e158b48b2c24d2b361e33d
+      internalID: -222339640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_52
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 343
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d942d3987ed54b146bc827958e7ed7a5
+      internalID: 2123544600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_53
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 343
+        width: 52
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96f76d9cc188ae40b0b9a30f298aac8
+      internalID: 1216784273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_54
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 352
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6508e9d9fc5186746b4aad0423975383
+      internalID: -846540579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_55
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 358
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13e34aef740fbe43908f87e46f4fb4d
+      internalID: -950943142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_56
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 359
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a293af713f834743ac1cd5f0b28ad20
+      internalID: 1687253376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_57
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 351
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12b248dbb685294891eb796cffc8065
+      internalID: -1232603605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_58
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 339
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5870a365f7b20f4591286f6ad4de10b
+      internalID: -1236421147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_59
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 340
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1316046b28c344418d1ccc909fc1d9c
+      internalID: 1147294101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_60
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 339
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a9e06896e748540a84c77e7c05b80e
+      internalID: 1671289064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_61
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 316
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2a5ec929db7914589bc4f6b3dabb2a
+      internalID: -2143279245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_62
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 345
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba5c5e6877e829418005cf8dfdc8a46
+      internalID: 1589148380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_63
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 317
+        width: 59
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ecbf77f938268f4896c982dee7e201c
+      internalID: 54621427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_64
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 313
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f91e6e88cc5984aa0b47e3dcec466b
+      internalID: 788952243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_65
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 313
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94731b3dfa30ac743a638e96e055f22b
+      internalID: 934678323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_66
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 313
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9f0889e74b53a4fa3bc2f9cb734432
+      internalID: 1935682769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_67
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 329
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6433bf00618ca7341a02e76f02f8c2ce
+      internalID: -2062551067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_68
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 328
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ef19f48366371448dfb5e0807b5f06
+      internalID: 1012438501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_69
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 328
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe41b77da445924f948b4597fc8d42a
+      internalID: 1728120178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_70
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 269
+        width: 116
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3596ab3c084baa42873a390f27632d6
+      internalID: 1516950488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_71
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 317
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67930956a4970c84db64e30d44990b3b
+      internalID: -400080639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_72
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 317
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029de094f034bc74dab5abc2fc56e1cd
+      internalID: -1817953351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_73
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 317
+        width: 52
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1cd5740d1e49a4409935b05631dabd4
+      internalID: 2027478849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_74
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 303
+        width: 59
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71829f55503bce54fbf4db5a4e411df4
+      internalID: 1846652977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_75
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 301
+        width: 59
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c5e814ebc7fcd4ebd4dce3257700b0
+      internalID: -1793002291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_76
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 304
+        width: 59
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9a0b866f4472445a5171d56d706c3e
+      internalID: 1638619553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_77
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 285
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be8193aa91fb8c44ae256fe2bfba07e
+      internalID: -1817373226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_78
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 289
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cad9aaa650d7274c97b33a648027aff
+      internalID: 842954383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_79
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 289
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c762df61bb018c45869b9d3b1c5322d
+      internalID: -2642198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_80
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 319
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d07b6f0290a831469361a3760a70ac2
+      internalID: 1181136154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_81
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 318
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266995ac9a848274499c8cc1a1f4747e
+      internalID: -1957639843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_82
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 316
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4945fd92c2b0ea42a334ca2280ac8f0
+      internalID: -71386676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_83
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 295
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef34f05687391447906ebb9ac0d3d5d
+      internalID: -760781870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_84
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 292
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c4b1024d99492409cdf7100da15b47
+      internalID: -1942024509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_85
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 294
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0c5c27351abfc419792ae196bfdf03
+      internalID: 153300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_86
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 296
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a5cebe04cf214498b8dd246ef78aba
+      internalID: -499041176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_87
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 292
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1559a7ae3f21fd64fae9c8963c26e437
+      internalID: 459711142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_88
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 295
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c797e9bb10a19e142b49e3e9b6ac0d43
+      internalID: -492964876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_89
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 293
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed51c5dd1a2ac8b43addfb47bbb41459
+      internalID: 1824159747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_90
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 289
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0ea2274afae4a458a37d93bf86885e
+      internalID: 67465078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_91
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 307
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcf2e3ea8eb8a74ab9a82fba14053a7
+      internalID: 204904894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_92
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 306
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fecd01b5c1a3a4e8ee4eb527fefb38
+      internalID: 2041781107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_93
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 305
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d664834451f9754c889d4cc37568f00
+      internalID: -1529952832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_94
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 290
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec9d598ff4a19b4f8bc0ccafc998c63
+      internalID: -1729244316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_95
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 283
+        width: 56
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cf8961893ecdf4486d416c9f8ac928
+      internalID: -1526679467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_96
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 255
+        width: 18
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0faf5fea04a9eb94cb856dd8d7a1dab0
+      internalID: 684025313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_97
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 255
+        width: 18
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b503a4f3cad904980b31f391a50628
+      internalID: -1809892642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_98
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 255
+        width: 18
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20ee531693ced049b6c5191c3e1955b
+      internalID: 1265380884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_99
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 255
+        width: 18
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383965e36fd6a4b4abaa261935f1ef07
+      internalID: -577162072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_100
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 255
+        width: 18
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b094f1b988e175d49b7e9b88558f054c
+      internalID: 367316015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_101
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 255
+        width: 18
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278e68241434dd94a9d67f6361017777
+      internalID: 437292935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_102
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 255
+        width: 18
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91aceda5476e5f4cb389691a5f48e5a
+      internalID: 1390293829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_103
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 255
+        width: 18
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90edfdb10859ae4480da49b562c5215
+      internalID: 173503625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_104
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 287
+        width: 59
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90dffb4e20ec9824b9eb13e7ead7bda2
+      internalID: 118995454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_105
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 290
+        width: 59
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ceee074699a974195bdc823dd03440
+      internalID: -1354151382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_106
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 295
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f793f844f466d74ebc74422e0671d73
+      internalID: 191544118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_107
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 295
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb618063ecac90e4c9d5e76f172951a8
+      internalID: -1973606017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_108
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 288
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97f7aa210a43514ca3f82394d37e371
+      internalID: -156100513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_109
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 274
+        width: 56
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c60155b0b05d4f4bbc2ae4db7c61526
+      internalID: -1217372418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_110
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 223
+        width: 66
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e356d4cfc2e066469acb865c2cf9a20
+      internalID: -552191655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_111
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 223
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2803213242e7fef4d8454e82eb28b262
+      internalID: 753553681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_112
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 223
+        width: 66
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d159fad6a309d40864ec3e8700f8d6
+      internalID: -817126835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_113
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 206
+        width: 59
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93fcc8c46907f04082be22e18ba168f
+      internalID: -899171854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_114
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 218
+        width: 59
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af06829770abb942ab39dc3c6da51c7
+      internalID: 1062509126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_115
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 253
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd580a22b5064744484b967e25624a53
+      internalID: 909272244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_116
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 225
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c394ae7fa22a2bd4f8168c85fb2801d1
+      internalID: 1572792274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_117
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 225
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f26bdae7f23ec24497ca8a4847e0e36
+      internalID: 153195824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_118
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 205
+        width: 7
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52fda1df0cd7014fb0f2961ad3714b7
+      internalID: -25498281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_119
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 203
+        width: 7
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f29873507787da4ab62fb0e61c493cd
+      internalID: 193111545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_120
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 237
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b1886ff68cb22498e2d255dfffcce7
+      internalID: -946493187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_121
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 237
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74d07704af00f547a2ee5b6b123f5c7
+      internalID: 83234242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_122
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 237
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b594efd41e06f2046993b66bba5cd226
+      internalID: 945461787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_123
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 258
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f2bb8bae5c83c408d40af1d2dfc0ba
+      internalID: 999471075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_124
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 258
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abd8f6685285444d943021edc55f69b
+      internalID: 224893361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_125
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 258
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9597fd3a41b20d40babb16e7c2ab5b8
+      internalID: 1357665526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_126
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 258
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f091e06627312442b84cc8c5d02eda8
+      internalID: -1224085654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_127
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 228
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72eb1e3fa50cbbe48b5fb0b5e128bead
+      internalID: 152739087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_128
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 239
+        width: 56
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3be43eaf0bf4145b2a92dabd6dd898
+      internalID: -1783889058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_129
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 244
+        width: 56
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a25476018b998643aa4d81f696880d7
+      internalID: -1236394208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_130
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 241
+        width: 56
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9dc84e710ff4a04fa8dda4d89f06bab
+      internalID: 1567461965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_131
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 187
+        width: 59
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147e854a0c625fc49a9ada8dc63af714
+      internalID: 1814263276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_132
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 181
+        width: 59
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa10cd6c469e8584091b2287f47b26c9
+      internalID: 2068822345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_133
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 192
+        width: 59
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789494ec720f1ed4cb332859f3f577d3
+      internalID: 540852751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_134
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 204
+        width: 59
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c184ff312afb1a41a3ddfa869f7fff8
+      internalID: 405144731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_135
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 201
+        width: 59
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002e4cc674f89274a879ec51b8c95610
+      internalID: 1229821014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_136
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 195
+        width: 59
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aad67a387fb743449590c69d7a80316
+      internalID: -454621963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_137
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 223
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b5ed158d4309e468d6d8a839c4d6f2
+      internalID: 1609031789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_138
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 222
+        width: 52
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0313ba29b68f50043990a504fe83d063
+      internalID: -1639612877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_139
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 192
+        width: 24
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224a3b15d8d8f82429299a9e89c04f64
+      internalID: 1397819421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_140
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 192
+        width: 24
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f58e02b96d8e0644a1e84960f508bea
+      internalID: -826464868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_141
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 201
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b346ae2cc5d97bb4a885a00d599583cb
+      internalID: 182414460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_142
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 201
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334597dd29a2d84449dac2e574f69c29
+      internalID: 477216534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_143
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 201
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5608e9c17ac6e064bac7e48e7c10aafb
+      internalID: 1500440038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_144
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 204
+        width: 7
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4453e0c582124549b47a7448bc5ec05
+      internalID: -2077727358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_145
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 202
+        width: 7
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39bb622daa1bd64f921dc45307cae5a
+      internalID: -1532095607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_146
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 212
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4efb66d5f0bc2542927bdc1cb150144
+      internalID: 540484153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_147
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 212
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b655798c5eb63574d91640fcf5700109
+      internalID: -789839284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_148
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 212
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99905ef53aaa5fe4aa7d8e7fcbf61928
+      internalID: 584305288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_149
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 212
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bba562c722549b48870f4d76dae7b26
+      internalID: -1480981628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_150
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 188
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ed3a1b7aa6bc947990d966200b7ffa
+      internalID: 1832701236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_151
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 194
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1962a9ad34050da489ea97e20843aad7
+      internalID: 1212543622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_152
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 201
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516255b8c07f41644a566c6b41118f46
+      internalID: -345751891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_153
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 206
+        width: 56
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b39230d476e3a4b943b1aee7798d8a
+      internalID: 106490490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_154
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 187
+        width: 19
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d10843531c185f4fbc60ac6b1589626
+      internalID: 1026471051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_155
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 187
+        width: 19
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6975f90dc5497a14ab380af42a0e8baa
+      internalID: 562063426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_156
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 187
+        width: 19
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4c0a40b9c5ab6439af67d0f9d7dc1b
+      internalID: 1755597974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_157
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 187
+        width: 19
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f725aca029039c5439ece55b8d9a6abd
+      internalID: 1485167166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_158
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 191
+        width: 52
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95be4431e6d5e8342a805970708d8ea9
+      internalID: -403968914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_159
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 157
+        width: 7
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad377acef4f7244c9a569847ba5456a
+      internalID: -2145824878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_160
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 156
+        width: 7
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8216eff83e0919b4aad7b858a8d21279
+      internalID: 341762571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_161
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 182
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d2a6922742096499c235a9060d0107
+      internalID: -1314252306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_162
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 182
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab73841d4951a6742af54819913ac6d4
+      internalID: 1546616965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_163
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 182
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113df99610d978d4095bd6c7e8484160
+      internalID: -1713425278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_164
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 182
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0caf52a6033e6c43b47191abd8c9fc6
+      internalID: -655346741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_165
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 182
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d806ecb0407cbe429ea908108cf8051
+      internalID: -665398025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_166
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 182
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f8ddb6278b7e74096bd3e832710089
+      internalID: 132592356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_167
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 192
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd5eaa547b34ec4dbe3d72b0166f4e8
+      internalID: 1018718110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_168
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 184
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b671cac551a51cd4dac90eb3b020043c
+      internalID: 1299412760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_169
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 195
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ec079a0ef0565479b356a9b436b2d6
+      internalID: 77969404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_170
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 113
+        width: 59
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5f4ab63da4c334ea60c7276ec4b39e
+      internalID: 1421874992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_171
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 115
+        width: 59
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1889c2f53996ae439a426701814194b
+      internalID: -103730763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_172
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 127
+        width: 59
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d553d6c7f2d85104e951b555369f0481
+      internalID: 647875811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_173
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 126
+        width: 58
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85933f3fdae1d5647bd820a8ade05513
+      internalID: -825282956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_174
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 121
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9dc626f8e49d844ba8e4add5a67c13
+      internalID: 708880710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_175
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 121
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6eab0a887231c546afcaf625cbf2bf9
+      internalID: -341455051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_176
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 163
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46bd491888031e40a37c48089273681
+      internalID: 176217831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_177
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 163
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c5bdcb0a1cb8c4a833aaefa7866181
+      internalID: -1342360268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_178
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 163
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d0e9e27cb1c5f4a80759fcdea036f5
+      internalID: 1146981577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_179
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 154
+        width: 7
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bccb70ba5b3ef4d8511f15dd56fb29
+      internalID: 903106362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_180
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 153
+        width: 7
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f3688f2f2b81a429c455baddfb17c9
+      internalID: -398407532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_181
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 136
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d34f8efc34d89448ce9d45c5848e5a
+      internalID: 1670712245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_182
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 136
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5d865290356ff4abcec9711b6bf609
+      internalID: -1766079209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_183
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 136
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63918942ab24b184f8dd32f6aaf481c7
+      internalID: -1358926507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_184
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 136
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8757ba1ce660740a1c917d1c9e9b95
+      internalID: 113096413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_185
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 136
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b313432a7d146a46951c6ddab45bb91
+      internalID: -88474944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_186
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 136
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fef1c89cae3026478f6322de9d748fc
+      internalID: 1068338699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_187
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 141
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae9c7cba153b4140abb3e4458786b03
+      internalID: 1815798857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_188
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 147
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84e6a45f689eea409af858161c6a473
+      internalID: -1626658800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_189
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 154
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7029a648ace8e4d861df748583bbfc
+      internalID: -32400931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_190
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 166
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef22623df17d0248a55b86339f4dbbc
+      internalID: 127021892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_191
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 166
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d1b3b4736987e46a3e88fc37d2c9f8
+      internalID: -1648957575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_192
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 166
+        width: 52
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3432931158c8c644786bde23a4bf7471
+      internalID: -722991213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_193
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a49c979b17ddb48b837ab530e8f6b9
+      internalID: 1898316245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_194
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337c9fd325b8ad34797257e5f62944b7
+      internalID: 217106929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_195
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 158
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63b688b874e38b4fb7cbccc7f3d787c
+      internalID: 267352440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_196
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 158
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1d941d66d79554ab47585a80a4a8eb
+      internalID: -1194853542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_197
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 158
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ac80fc027010c4d8acde16724a5d8c
+      internalID: 1160081305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_198
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 158
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887693233a28f7445b537a6920e70f5c
+      internalID: 34694064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_199
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 158
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb4f7f5738770f4995a8692c902b325
+      internalID: -1466089905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_200
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 158
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bdaf35dd7d72940964a0135ab1c06a
+      internalID: 1478411718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_201
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 158
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a4e52909015334eaafd74c42390516
+      internalID: 640067681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_202
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 158
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e58a4c25a20b14d9d63768e30cd9d0
+      internalID: -941129924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_203
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 115
+        width: 19
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784d69e10c81ae042b0124095fde7d27
+      internalID: -944502404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_204
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 115
+        width: 19
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d84a9f2e03a67649aa6b67b74e64b6f
+      internalID: -2058203096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_205
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 114
+        width: 19
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3eaa341af59d69429041a3097ab5f3f
+      internalID: 609822341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_206
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 114
+        width: 19
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b616dfcdbce1ab84cbdd43e2fc5fb8cb
+      internalID: -1744985465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_207
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 115
+        width: 19
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f45c46432d4cf4da2eb68a3f5a7300
+      internalID: 1818505669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_208
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 115
+        width: 19
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b941e0250e7ab674c85095520688f747
+      internalID: 1657188947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_209
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 114
+        width: 19
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae67ff1c5eb48246b701398f1009ae5
+      internalID: -515210634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_210
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 114
+        width: 19
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1edbe1da11b1dbd4b9f21ec4aa030039
+      internalID: -82334399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_211
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 87
+        width: 59
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e8e4f638be5f5409713e534a668aa5
+      internalID: 846646108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_212
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 101
+        width: 59
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d183618a857c544882585c453a7011
+      internalID: -1436316220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_213
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 101
+        width: 59
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83443de2581e56949904c367bdf4ec41
+      internalID: -1131174661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_214
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 96
+        width: 39
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec91121e17c55048b0c46cae46650b7
+      internalID: 327636119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_215
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 132
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9859389abe6c14bb225a8ed2f3b35c
+      internalID: -717331623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_216
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 132
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e0dd359a8fe8c4a83bcbc0bd52f7cf
+      internalID: -650809806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_217
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 132
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d57f3993fce94f4c9e590b6dc38ec82
+      internalID: 1040630920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_218
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 140
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aabeeef5b052c44abddc33bbdae13a8
+      internalID: 1197311041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_219
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 140
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fad9ce31803a94ea11636fe4e86012
+      internalID: 627266432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_220
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 140
+        width: 52
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805b08b9e7779e048afeac1902fe1b50
+      internalID: -1563081186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_221
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 132
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d812ce462ade8524c9bd38e21f3d2e5e
+      internalID: -841402362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_222
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 132
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7ea9012c0975448a49aca7bc0139f3
+      internalID: -1481733622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_223
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 132
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e240e6251d78249ada430128196a3a
+      internalID: 1558378450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_224
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 132
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab2f81f6b989b446b731984637deb96
+      internalID: 1624303329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_225
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 132
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d5706dc04a63e4d9117c1a2da8e986
+      internalID: -708821221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_226
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 132
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca6df6f9514e5042b3c4ee3e228af5b
+      internalID: 1822094708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_227
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 121
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9266b39fce36b47a170c55111189be
+      internalID: -1881554730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_228
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 121
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89f41d56148dda42872394383ede5e9
+      internalID: 567026703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_229
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 121
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49997b2b755f09e478821733350398e6
+      internalID: -1445811549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_230
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 121
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8904377a5b78f464d828a448155e6be9
+      internalID: 1357040901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_231
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 94
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d45e62fee80af745914a837727fe107
+      internalID: 898760710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_232
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 74
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab64de1fb9d8b8c4c8bb3c86034a4439
+      internalID: 437124021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_233
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 77
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e85c35ca2c376040a03af8a0e8082c6
+      internalID: 583843743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_234
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 109
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c776db78f0f140448d3315ebc7c53a1
+      internalID: -201957785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_235
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 107
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd5a0fa10520184ab91be185b0d1d2c
+      internalID: 582013131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_236
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 108
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81af67945fe26f14ba77eff63ac79316
+      internalID: 1483312121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_237
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 106
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c15c568196f17e41a2d70fc539d6e53
+      internalID: -1491962571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_238
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 84
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4afbaefddc3dd4bb2384e54135e50d
+      internalID: 863601925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_239
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 84
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfd49615a143a04fa6372d866365433
+      internalID: 18615278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_240
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 84
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10be9ef999795a54bb214960590be6f1
+      internalID: -1528274778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_241
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 84
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee1f5a7b63928a4a8e1bf346577b660
+      internalID: -234871774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_242
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 84
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602392d5114948b44812a9a39cf44f4e
+      internalID: 615948194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_243
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 84
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4359837f9e3c20b4ab2bed31478b5d65
+      internalID: -1752017341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_244
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 84
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d3f357262480b48822c9a0d0a9ee33
+      internalID: 1792975276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_245
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 90
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb7bdbba4f2b0c4db9a9abb68ab87a4
+      internalID: -961935805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_246
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 90
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0507170435a9cec43a645d5f2316d6c5
+      internalID: -227733178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_247
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 95
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a93d635959d7140a8f238ac56a643b
+      internalID: -669164832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_248
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 95
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f832a5266cb240340bea5f65cafca805
+      internalID: -1613132655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_249
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 95
+        width: 5
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fa9311c57ac8f468f677269230ede3
+      internalID: -1694267004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_250
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 96
+        width: 56
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fff01e3610120e4d83f2b514e862cc3
+      internalID: 347295198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_251
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 96
+        width: 56
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4adcb1399ad6c4da64ab15ca4b6caa
+      internalID: 815615275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_252
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 90
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200e73378b6d69b41b37f237845343c2
+      internalID: 687644615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_253
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 102
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654b82a7ddedf61419c646f97d81d5a3
+      internalID: 467211497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_254
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 103
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9cf75ba210a1241bd2524e900d8ded
+      internalID: -374859249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_255
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 101
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ca8e3dfafc6cf478e52b464cf1f89e
+      internalID: 1446327555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_256
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 91
+        width: 58
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4092f7a0010b4478733a313c3b85c1
+      internalID: 1812565776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_257
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 97
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3608184c4b52e49bfaf44428d40d98
+      internalID: -1620258647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_258
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 95
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1a24b95f713434791e7eae52adfda5
+      internalID: -427968988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_259
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 96
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3510764ff1bc247bedd1f552671267
+      internalID: 581822146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_260
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 93
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498a4a364c6689e468f9a39328a39732
+      internalID: -570587508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_261
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 41
+        width: 19
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaaa6450d82b87a499a6d8085c5f40b2
+      internalID: -731524105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_262
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 41
+        width: 19
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0415f094007f1ad4da712cc06fbf850e
+      internalID: 930017151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_263
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 40
+        width: 19
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206545432d07d2e49af3e586e3dc05c6
+      internalID: -1348974285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_264
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 40
+        width: 19
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416ca2aa9b112904ba3797498d614697
+      internalID: 1266907346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_265
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 41
+        width: 19
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c01a4c225a4854bbc07ec28527617b
+      internalID: -680633364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_266
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 41
+        width: 19
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf42756e0724cd418491e1c23911188
+      internalID: -698539510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_267
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 40
+        width: 19
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a113b9c53ed8f34a82c23ae7cfae9ab
+      internalID: -96028879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_268
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 40
+        width: 19
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e717c5d8bc2a5e24b94eb99e75931810
+      internalID: 397362941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_269
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 18
+        width: 59
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25c3690e886df846ae57857497558bf
+      internalID: 1711269416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_270
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 23
+        width: 59
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e24d07c39175e14c8f28267635c5607
+      internalID: 839378936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_271
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 84
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd9e0c724b40b642aa4e5fa33b2a85d
+      internalID: 2128301871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_272
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 83
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c636c72fe13a354e9d37b6365bb99b2
+      internalID: 447434664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_273
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 83
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc397770fedc89e4daf267699400a7b6
+      internalID: -1279477036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_274
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 60
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc3c614c1522724dab7b33f42e4c44a
+      internalID: 865260022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_275
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 60
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5368ba97160a84d4fba3967f3d2f42d9
+      internalID: -655822928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_276
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 60
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7243456c1de3ab49acef1d1f4180e2e
+      internalID: -457918759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_277
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 59
+        width: 5
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754860b78c4918e4ebbdd61701a229e5
+      internalID: 73778997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_278
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 57
+        width: 56
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baff30a7a16c6684591de6f7a47ec651
+      internalID: 1356359710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_279
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 63
+        width: 56
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20074af98e3e53419f8970fcfaf3e66
+      internalID: 1367687951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_280
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 64
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b912a381f1c09e4e8170075c56bfe6a
+      internalID: 2079895285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_281
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 64
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237acc67982b04543af98986c6a74dbf
+      internalID: 1931600216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_282
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 64
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fa82f2cb3740d4a8109bdc25b29ee1
+      internalID: 454935211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_283
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 64
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563ea7eae1317b8478faf90d07d0f6de
+      internalID: 1081601876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_284
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 64
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9e12a91720c644abc90671c6a6b99b
+      internalID: -1221158918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_285
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 64
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854812e1c633b44409e7bc66faebf601
+      internalID: -1408176341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_286
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 64
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b09724b3fb733945acbe8313c5ed041
+      internalID: -241207782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_287
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 64
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beebf8203d5c6634cab2eea404afce78
+      internalID: -265688864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_288
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 4
+        width: 59
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a73487fadff1524d824254f468dbf3c
+      internalID: -2027195054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_289
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 9
+        width: 59
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0897cb51d0478c40b6b146436fa0ba5
+      internalID: -642280675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_290
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 8
+        width: 72
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222669e69a6654047ba8015242a8648f
+      internalID: 1948198628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_291
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 8
+        width: 72
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98ac7c344f5cfe499ebb9427cf3b5e0
+      internalID: 511988877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_292
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 73
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d338586790adc742a9145540f499b43
+      internalID: 1461360225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_293
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 72
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6278b066f4f89bb408e4609ed344cee1
+      internalID: -2013510924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_294
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 72
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee747beb43e68b544b4313e5847327c0
+      internalID: -70135554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_295
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 43
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0861c42e09fd23145bc2221207744587
+      internalID: -2023236399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_296
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 43
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6499dfa7de2a2a54aa781014ef02ad0c
+      internalID: -1537519561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_297
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 52
+        width: 56
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206711bb7ab5651448f0b934a2f4a009
+      internalID: 1090323539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_298
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 64
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95622bef9ec33c94cb3aedf9118fd070
+      internalID: -99007151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_299
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 64
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82895069d804d104ba61c2ee63bd01a9
+      internalID: 1616734164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_300
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 35
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c3e358d683edd4a9d4c3acce66e17a
+      internalID: 1328341757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_301
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 32
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4633af97ae2b6545b4db96913b9faa9
+      internalID: 747177960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_302
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 32
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b679e5234f3512341bf041d480f60bbf
+      internalID: 850367134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_303
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 35
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd72b70b4e4798c41a3ab958ddac0fd7
+      internalID: 1624792933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_304
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 35
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1dea3d6a7ef844989bc193f5b92018
+      internalID: 1583585742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_305
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 32
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c79792217b926448a228109a4a5e839
+      internalID: 1996507166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_306
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 32
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92b2fd75a71c24479988967ff8ee356
+      internalID: 1269535390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_307
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 35
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193572cde7276e04f9ca02bcf738a819
+      internalID: 171673095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_308
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 31
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576fc365e609f7a439206415c8c8ef46
+      internalID: 1565866764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_309
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 34
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10843d4ecff19c04eab70f09c9b05d3a
+      internalID: -1995994517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_310
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 63
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a8d43c2bcf22d479aa9f93148c27b5
+      internalID: -1201972363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_311
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 62
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cca8ffc9388b5d4b8d998ba58682b71
+      internalID: -1539265197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_312
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 60
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609edefcf204305408b9aa87c8b49ed7
+      internalID: -1047953147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_313
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 39
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bdadd4999c15d04986ec172690ceeb6
+      internalID: -1185485214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_314
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 36
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac4aaf4881ae544e95c53884043d243
+      internalID: 1305610149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_315
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 38
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac791c9a1604354890194e00b0958d7
+      internalID: -404270524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_316
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 40
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c9dd3127ad37c4ca2ae089d00e0dbf
+      internalID: 880796352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_317
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 36
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ed5879a0686db4b9a403595e954592
+      internalID: 1385748497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_318
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 39
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a0fdea37349ac4aba139ba364f9fa4
+      internalID: -2097897926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_319
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 37
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8213e0ff1138c7a4d8ba5dc0721f6876
+      internalID: 1714303375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_320
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 51
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287143a226030fd449dda05052ac4d96
+      internalID: -617386567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_321
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 50
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1db4cd8f90a9ca408232028b3cfe81d
+      internalID: 447686382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_322
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 49
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028414bed52ace24983fabbaba46aba0
+      internalID: 658506299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_323
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 34
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a93cee0e62d5544daa7a1823c6e2911
+      internalID: -668388214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_324
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 18
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0ad7b922d607149848cfbaabab1e17
+      internalID: 1389751365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_325
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 22
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0109d8fbb1bc75e42a46380dcd7d4198
+      internalID: -925655595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_326
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 23
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfe38f9485e27448ae76f2de3f7dfbf
+      internalID: 524290178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_327
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 38
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5132955c790eb498353cdc3440db72
+      internalID: 2017423860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_328
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 38
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e772ef17e1c7a4586d8d9f6ff2def5
+      internalID: -1424706997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_329
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 38
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12dbdef4ea19dde4fabaf2e3e3cc9577
+      internalID: 1695513046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_330
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 38
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fb738c9209b7343bd4a99bafbb962d
+      internalID: -336501617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_331
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 38
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2576cc76cca135546a781bf96e4fcc4f
+      internalID: -7682162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_332
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 38
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3522253679e9b44881e6c2c94b0e115
+      internalID: -1993646533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_333
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 27
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b547067db783ddc4ba338d4930a47461
+      internalID: 1602250032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_334
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 27
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29248e93689e25d418a69a6260a3d68c
+      internalID: -1264599073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_335
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 27
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a101eb7f07784d54eaf8853572f1e0fc
+      internalID: 419018787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_336
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 27
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9bfe2321cec9a4f9a3690c09326cf6
+      internalID: -1124257138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_337
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 39
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e746ed91460d1b94fb337c1e10db5b1b
+      internalID: 882652640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_338
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 39
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a477296f00d891441987f1899e8ddab5
+      internalID: -198897498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_339
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 32
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d80570c5b4ca1c40a3dfc985151b118
+      internalID: 124250043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_340
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 1
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f955e2a77628fe14fabaf5e5c17ad820
+      internalID: 277900755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_341
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc5bdd83b8f1de408fa87f4f77f2227
+      internalID: -2022473727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood Garden Assets_342
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 19
+        width: 56
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46547aae596edb44aa38560ff7c2b82
+      internalID: -1530221481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Wood Garden Assets_0: -806847158
+      Wood Garden Assets_1: 1099051772
+      Wood Garden Assets_10: -1393605392
+      Wood Garden Assets_100: 367316015
+      Wood Garden Assets_101: 437292935
+      Wood Garden Assets_102: 1390293829
+      Wood Garden Assets_103: 173503625
+      Wood Garden Assets_104: 118995454
+      Wood Garden Assets_105: -1354151382
+      Wood Garden Assets_106: 191544118
+      Wood Garden Assets_107: -1973606017
+      Wood Garden Assets_108: -156100513
+      Wood Garden Assets_109: -1217372418
+      Wood Garden Assets_11: 728216355
+      Wood Garden Assets_110: -552191655
+      Wood Garden Assets_111: 753553681
+      Wood Garden Assets_112: -817126835
+      Wood Garden Assets_113: -899171854
+      Wood Garden Assets_114: 1062509126
+      Wood Garden Assets_115: 909272244
+      Wood Garden Assets_116: 1572792274
+      Wood Garden Assets_117: 153195824
+      Wood Garden Assets_118: -25498281
+      Wood Garden Assets_119: 193111545
+      Wood Garden Assets_12: 1936294601
+      Wood Garden Assets_120: -946493187
+      Wood Garden Assets_121: 83234242
+      Wood Garden Assets_122: 945461787
+      Wood Garden Assets_123: 999471075
+      Wood Garden Assets_124: 224893361
+      Wood Garden Assets_125: 1357665526
+      Wood Garden Assets_126: -1224085654
+      Wood Garden Assets_127: 152739087
+      Wood Garden Assets_128: -1783889058
+      Wood Garden Assets_129: -1236394208
+      Wood Garden Assets_13: 1758856561
+      Wood Garden Assets_130: 1567461965
+      Wood Garden Assets_131: 1814263276
+      Wood Garden Assets_132: 2068822345
+      Wood Garden Assets_133: 540852751
+      Wood Garden Assets_134: 405144731
+      Wood Garden Assets_135: 1229821014
+      Wood Garden Assets_136: -454621963
+      Wood Garden Assets_137: 1609031789
+      Wood Garden Assets_138: -1639612877
+      Wood Garden Assets_139: 1397819421
+      Wood Garden Assets_14: 847936428
+      Wood Garden Assets_140: -826464868
+      Wood Garden Assets_141: 182414460
+      Wood Garden Assets_142: 477216534
+      Wood Garden Assets_143: 1500440038
+      Wood Garden Assets_144: -2077727358
+      Wood Garden Assets_145: -1532095607
+      Wood Garden Assets_146: 540484153
+      Wood Garden Assets_147: -789839284
+      Wood Garden Assets_148: 584305288
+      Wood Garden Assets_149: -1480981628
+      Wood Garden Assets_15: 364001383
+      Wood Garden Assets_150: 1832701236
+      Wood Garden Assets_151: 1212543622
+      Wood Garden Assets_152: -345751891
+      Wood Garden Assets_153: 106490490
+      Wood Garden Assets_154: 1026471051
+      Wood Garden Assets_155: 562063426
+      Wood Garden Assets_156: 1755597974
+      Wood Garden Assets_157: 1485167166
+      Wood Garden Assets_158: -403968914
+      Wood Garden Assets_159: -2145824878
+      Wood Garden Assets_16: -1930790412
+      Wood Garden Assets_160: 341762571
+      Wood Garden Assets_161: -1314252306
+      Wood Garden Assets_162: 1546616965
+      Wood Garden Assets_163: -1713425278
+      Wood Garden Assets_164: -655346741
+      Wood Garden Assets_165: -665398025
+      Wood Garden Assets_166: 132592356
+      Wood Garden Assets_167: 1018718110
+      Wood Garden Assets_168: 1299412760
+      Wood Garden Assets_169: 77969404
+      Wood Garden Assets_17: 406297148
+      Wood Garden Assets_170: 1421874992
+      Wood Garden Assets_171: -103730763
+      Wood Garden Assets_172: 647875811
+      Wood Garden Assets_173: -825282956
+      Wood Garden Assets_174: 708880710
+      Wood Garden Assets_175: -341455051
+      Wood Garden Assets_176: 176217831
+      Wood Garden Assets_177: -1342360268
+      Wood Garden Assets_178: 1146981577
+      Wood Garden Assets_179: 903106362
+      Wood Garden Assets_18: 286892670
+      Wood Garden Assets_180: -398407532
+      Wood Garden Assets_181: 1670712245
+      Wood Garden Assets_182: -1766079209
+      Wood Garden Assets_183: -1358926507
+      Wood Garden Assets_184: 113096413
+      Wood Garden Assets_185: -88474944
+      Wood Garden Assets_186: 1068338699
+      Wood Garden Assets_187: 1815798857
+      Wood Garden Assets_188: -1626658800
+      Wood Garden Assets_189: -32400931
+      Wood Garden Assets_19: -202303018
+      Wood Garden Assets_190: 127021892
+      Wood Garden Assets_191: -1648957575
+      Wood Garden Assets_192: -722991213
+      Wood Garden Assets_193: 1898316245
+      Wood Garden Assets_194: 217106929
+      Wood Garden Assets_195: 267352440
+      Wood Garden Assets_196: -1194853542
+      Wood Garden Assets_197: 1160081305
+      Wood Garden Assets_198: 34694064
+      Wood Garden Assets_199: -1466089905
+      Wood Garden Assets_2: -683429641
+      Wood Garden Assets_20: 1734115844
+      Wood Garden Assets_200: 1478411718
+      Wood Garden Assets_201: 640067681
+      Wood Garden Assets_202: -941129924
+      Wood Garden Assets_203: -944502404
+      Wood Garden Assets_204: -2058203096
+      Wood Garden Assets_205: 609822341
+      Wood Garden Assets_206: -1744985465
+      Wood Garden Assets_207: 1818505669
+      Wood Garden Assets_208: 1657188947
+      Wood Garden Assets_209: -515210634
+      Wood Garden Assets_21: -1546432978
+      Wood Garden Assets_210: -82334399
+      Wood Garden Assets_211: 846646108
+      Wood Garden Assets_212: -1436316220
+      Wood Garden Assets_213: -1131174661
+      Wood Garden Assets_214: 327636119
+      Wood Garden Assets_215: -717331623
+      Wood Garden Assets_216: -650809806
+      Wood Garden Assets_217: 1040630920
+      Wood Garden Assets_218: 1197311041
+      Wood Garden Assets_219: 627266432
+      Wood Garden Assets_22: 671735555
+      Wood Garden Assets_220: -1563081186
+      Wood Garden Assets_221: -841402362
+      Wood Garden Assets_222: -1481733622
+      Wood Garden Assets_223: 1558378450
+      Wood Garden Assets_224: 1624303329
+      Wood Garden Assets_225: -708821221
+      Wood Garden Assets_226: 1822094708
+      Wood Garden Assets_227: -1881554730
+      Wood Garden Assets_228: 567026703
+      Wood Garden Assets_229: -1445811549
+      Wood Garden Assets_23: -1615009448
+      Wood Garden Assets_230: 1357040901
+      Wood Garden Assets_231: 898760710
+      Wood Garden Assets_232: 437124021
+      Wood Garden Assets_233: 583843743
+      Wood Garden Assets_234: -201957785
+      Wood Garden Assets_235: 582013131
+      Wood Garden Assets_236: 1483312121
+      Wood Garden Assets_237: -1491962571
+      Wood Garden Assets_238: 863601925
+      Wood Garden Assets_239: 18615278
+      Wood Garden Assets_24: -23031729
+      Wood Garden Assets_240: -1528274778
+      Wood Garden Assets_241: -234871774
+      Wood Garden Assets_242: 615948194
+      Wood Garden Assets_243: -1752017341
+      Wood Garden Assets_244: 1792975276
+      Wood Garden Assets_245: -961935805
+      Wood Garden Assets_246: -227733178
+      Wood Garden Assets_247: -669164832
+      Wood Garden Assets_248: -1613132655
+      Wood Garden Assets_249: -1694267004
+      Wood Garden Assets_25: 902573843
+      Wood Garden Assets_250: 347295198
+      Wood Garden Assets_251: 815615275
+      Wood Garden Assets_252: 687644615
+      Wood Garden Assets_253: 467211497
+      Wood Garden Assets_254: -374859249
+      Wood Garden Assets_255: 1446327555
+      Wood Garden Assets_256: 1812565776
+      Wood Garden Assets_257: -1620258647
+      Wood Garden Assets_258: -427968988
+      Wood Garden Assets_259: 581822146
+      Wood Garden Assets_26: -2101573954
+      Wood Garden Assets_260: -570587508
+      Wood Garden Assets_261: -731524105
+      Wood Garden Assets_262: 930017151
+      Wood Garden Assets_263: -1348974285
+      Wood Garden Assets_264: 1266907346
+      Wood Garden Assets_265: -680633364
+      Wood Garden Assets_266: -698539510
+      Wood Garden Assets_267: -96028879
+      Wood Garden Assets_268: 397362941
+      Wood Garden Assets_269: 1711269416
+      Wood Garden Assets_27: -1677586358
+      Wood Garden Assets_270: 839378936
+      Wood Garden Assets_271: 2128301871
+      Wood Garden Assets_272: 447434664
+      Wood Garden Assets_273: -1279477036
+      Wood Garden Assets_274: 865260022
+      Wood Garden Assets_275: -655822928
+      Wood Garden Assets_276: -457918759
+      Wood Garden Assets_277: 73778997
+      Wood Garden Assets_278: 1356359710
+      Wood Garden Assets_279: 1367687951
+      Wood Garden Assets_28: 436564237
+      Wood Garden Assets_280: 2079895285
+      Wood Garden Assets_281: 1931600216
+      Wood Garden Assets_282: 454935211
+      Wood Garden Assets_283: 1081601876
+      Wood Garden Assets_284: -1221158918
+      Wood Garden Assets_285: -1408176341
+      Wood Garden Assets_286: -241207782
+      Wood Garden Assets_287: -265688864
+      Wood Garden Assets_288: -2027195054
+      Wood Garden Assets_289: -642280675
+      Wood Garden Assets_29: 852531472
+      Wood Garden Assets_290: 1948198628
+      Wood Garden Assets_291: 511988877
+      Wood Garden Assets_292: 1461360225
+      Wood Garden Assets_293: -2013510924
+      Wood Garden Assets_294: -70135554
+      Wood Garden Assets_295: -2023236399
+      Wood Garden Assets_296: -1537519561
+      Wood Garden Assets_297: 1090323539
+      Wood Garden Assets_298: -99007151
+      Wood Garden Assets_299: 1616734164
+      Wood Garden Assets_3: -426908965
+      Wood Garden Assets_30: -1520871092
+      Wood Garden Assets_300: 1328341757
+      Wood Garden Assets_301: 747177960
+      Wood Garden Assets_302: 850367134
+      Wood Garden Assets_303: 1624792933
+      Wood Garden Assets_304: 1583585742
+      Wood Garden Assets_305: 1996507166
+      Wood Garden Assets_306: 1269535390
+      Wood Garden Assets_307: 171673095
+      Wood Garden Assets_308: 1565866764
+      Wood Garden Assets_309: -1995994517
+      Wood Garden Assets_31: -2123492680
+      Wood Garden Assets_310: -1201972363
+      Wood Garden Assets_311: -1539265197
+      Wood Garden Assets_312: -1047953147
+      Wood Garden Assets_313: -1185485214
+      Wood Garden Assets_314: 1305610149
+      Wood Garden Assets_315: -404270524
+      Wood Garden Assets_316: 880796352
+      Wood Garden Assets_317: 1385748497
+      Wood Garden Assets_318: -2097897926
+      Wood Garden Assets_319: 1714303375
+      Wood Garden Assets_32: -439129075
+      Wood Garden Assets_320: -617386567
+      Wood Garden Assets_321: 447686382
+      Wood Garden Assets_322: 658506299
+      Wood Garden Assets_323: -668388214
+      Wood Garden Assets_324: 1389751365
+      Wood Garden Assets_325: -925655595
+      Wood Garden Assets_326: 524290178
+      Wood Garden Assets_327: 2017423860
+      Wood Garden Assets_328: -1424706997
+      Wood Garden Assets_329: 1695513046
+      Wood Garden Assets_33: -1805038583
+      Wood Garden Assets_330: -336501617
+      Wood Garden Assets_331: -7682162
+      Wood Garden Assets_332: -1993646533
+      Wood Garden Assets_333: 1602250032
+      Wood Garden Assets_334: -1264599073
+      Wood Garden Assets_335: 419018787
+      Wood Garden Assets_336: -1124257138
+      Wood Garden Assets_337: 882652640
+      Wood Garden Assets_338: -198897498
+      Wood Garden Assets_339: 124250043
+      Wood Garden Assets_34: -1278354169
+      Wood Garden Assets_340: 277900755
+      Wood Garden Assets_341: -2022473727
+      Wood Garden Assets_342: -1530221481
+      Wood Garden Assets_35: 1302671566
+      Wood Garden Assets_36: 2047133328
+      Wood Garden Assets_37: -1107789817
+      Wood Garden Assets_38: 652910159
+      Wood Garden Assets_39: 1468696043
+      Wood Garden Assets_4: 2090737282
+      Wood Garden Assets_40: -458960569
+      Wood Garden Assets_41: -1844618592
+      Wood Garden Assets_42: 1702570696
+      Wood Garden Assets_43: 1094486817
+      Wood Garden Assets_44: -619323899
+      Wood Garden Assets_45: 211739547
+      Wood Garden Assets_46: 1501770471
+      Wood Garden Assets_47: -1341728367
+      Wood Garden Assets_48: 1306447494
+      Wood Garden Assets_49: -1086714362
+      Wood Garden Assets_5: 892609623
+      Wood Garden Assets_50: -1004960851
+      Wood Garden Assets_51: -222339640
+      Wood Garden Assets_52: 2123544600
+      Wood Garden Assets_53: 1216784273
+      Wood Garden Assets_54: -846540579
+      Wood Garden Assets_55: -950943142
+      Wood Garden Assets_56: 1687253376
+      Wood Garden Assets_57: -1232603605
+      Wood Garden Assets_58: -1236421147
+      Wood Garden Assets_59: 1147294101
+      Wood Garden Assets_6: 1767382092
+      Wood Garden Assets_60: 1671289064
+      Wood Garden Assets_61: -2143279245
+      Wood Garden Assets_62: 1589148380
+      Wood Garden Assets_63: 54621427
+      Wood Garden Assets_64: 788952243
+      Wood Garden Assets_65: 934678323
+      Wood Garden Assets_66: 1935682769
+      Wood Garden Assets_67: -2062551067
+      Wood Garden Assets_68: 1012438501
+      Wood Garden Assets_69: 1728120178
+      Wood Garden Assets_7: 1523296877
+      Wood Garden Assets_70: 1516950488
+      Wood Garden Assets_71: -400080639
+      Wood Garden Assets_72: -1817953351
+      Wood Garden Assets_73: 2027478849
+      Wood Garden Assets_74: 1846652977
+      Wood Garden Assets_75: -1793002291
+      Wood Garden Assets_76: 1638619553
+      Wood Garden Assets_77: -1817373226
+      Wood Garden Assets_78: 842954383
+      Wood Garden Assets_79: -2642198
+      Wood Garden Assets_8: 726317453
+      Wood Garden Assets_80: 1181136154
+      Wood Garden Assets_81: -1957639843
+      Wood Garden Assets_82: -71386676
+      Wood Garden Assets_83: -760781870
+      Wood Garden Assets_84: -1942024509
+      Wood Garden Assets_85: 153300068
+      Wood Garden Assets_86: -499041176
+      Wood Garden Assets_87: 459711142
+      Wood Garden Assets_88: -492964876
+      Wood Garden Assets_89: 1824159747
+      Wood Garden Assets_9: 161515167
+      Wood Garden Assets_90: 67465078
+      Wood Garden Assets_91: 204904894
+      Wood Garden Assets_92: 2041781107
+      Wood Garden Assets_93: -1529952832
+      Wood Garden Assets_94: -1729244316
+      Wood Garden Assets_95: -1526679467
+      Wood Garden Assets_96: 684025313
+      Wood Garden Assets_97: -1809892642
+      Wood Garden Assets_98: 1265380884
+      Wood Garden Assets_99: -577162072
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -9,8 +9,10 @@ public class PlayerControl : MonoBehaviour
     Rigidbody2D rb2d;
     GameObject _light;
     GameObject lockPick;
+    GameObject iDCard;
 
-    bool lockpickHave = false;
+    public bool lockpickHave = false;
+    public bool iDCardHave = false;
 
     Quaternion playerRot;
 
@@ -23,8 +25,9 @@ public class PlayerControl : MonoBehaviour
     private void Awake()
     {
         rb2d = GetComponent<Rigidbody2D>();
-        _light = transform.GetChild(0).gameObject;
+        //_light = transform.GetChild(0).gameObject;
         lockPick = transform.GetChild(1).gameObject;
+        iDCard = transform.GetChild(2).gameObject;
     }
 
     void Update()
@@ -50,7 +53,7 @@ public class PlayerControl : MonoBehaviour
     private void Rotation()
     {
         playerRot = Quaternion.Euler(new Vector3(0, 0, -Mathf.Atan2(constX, constY) * Mathf.Rad2Deg));
-        _light.transform.rotation = playerRot;
+        //_light.transform.rotation = playerRot;
     }
 
     private void InteractionRay()
@@ -62,6 +65,15 @@ public class PlayerControl : MonoBehaviour
             {
                 lockpickHave = true;
                 lockPick.gameObject.SetActive(lockpickHave);
+            }
+        }
+
+        if (Physics2D.Raycast(transform.position, new Vector2(constX, constY), 1, 1 << LayerMask.NameToLayer("IDCard")))
+        {
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                iDCardHave = true;
+                iDCard.gameObject.SetActive(iDCardHave);
             }
         }
     }

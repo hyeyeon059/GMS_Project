@@ -30,7 +30,12 @@ public class PlayerControl : MonoBehaviour
         iDCard = transform.GetChild(2).gameObject;
     }
 
-    void Update()
+    private void Start()
+    {
+        GameManager.Instance.Player = this.gameObject;
+    }
+
+        void Update()
     {
         Move();
         Rotation();

@@ -81,6 +81,7 @@ public class CameraSet : MonoBehaviour
         while(setvalue != endvalue)
         {
             nowtime += 0.05f;
+            //easing ½Ä  nowtime == 0 ? 0 : Math.pow(2, 10 * nowtime - 10);
             setvalue = Mathf.Lerp(startvalue, endvalue, nowtime / settime);
             Mathf.Clamp(setvalue, 0, 1);
             vignette.intensity.value = setvalue;

@@ -9,9 +9,12 @@ public class CameraSet : MonoBehaviour
     [SerializeField]
     Volume volume;
     Vignette vignette;
-    //Player 
+    //Player      
 
-    void Floormove(int value=0) => StartCoroutine(AutoFloorFading(value));
+    public void Floormove(int value=0) => StartCoroutine(AutoFloorFading(value));
+    public void Flashon() => vignette.intensity.value -= 0.25f;
+    public void Flashoff() => vignette.intensity.value += 0.25f;
+
 
     private void Awake()
     {
@@ -20,17 +23,10 @@ public class CameraSet : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if(GameManager.Instance.RoomChanging)
         {
-            Fades(1,1);
-        }
-        if (Input.GetMouseButtonDown(1))
-        {
-            Fades(3, 0);
-        }
-        if (Input.GetKeyDown(KeyCode.U))
-        {
-            Floormove(1);
+            Floormove(GameManager.Instance.NowFloor);
+            GameManager.Instance.RoomChanging = false;
         }
     }
 
@@ -47,15 +43,33 @@ public class CameraSet : MonoBehaviour
     //층이동시 페이드 자동 완성
     public IEnumerator AutoFloorFading(int floor=0)
     {
+        float endValue=0;
+        endValue = floor == 0 ? 0.5f : 0;   //지하에서의 주변 밝기없애는정도
+        vignette.color.value = new Color(0, 0, 0);
         GameManager.Instance.RoomChanging = true;
         StartCoroutine(Setfadeinten(1.5f, vignette.intensity.value, 1));
         yield return StartCoroutine(Setfadevect(0, vignette.center.value, new Vector2(0.5f, 1)));
         vignette.center.value = new Vector2(Setvect(vignette.center.value.x), Setvect(vignette.center.value.y));
         //player.transform.position = GameManager.Instance.FloorPos(floor);
-        StartCoroutine(Setfadeinten(1.5f, vignette.intensity.value, 0, waitingtime: 2f));
-        StartCoroutine(Setfadevect(1.5f, vignette.center.value, new Vector2(0.5f, 0.5f)));
+        if (floor == 0) SetfadeColor(1.5f);
+        StartCoroutine(Setfadeinten(1.5f, vignette.intensity.value, endValue, waitingtime: 2f));
+        yield return StartCoroutine(Setfadevect(1.5f, vignette.center.value, new Vector2(0.5f, 0.5f)));
+        yield return new WaitForSeconds(0.5f);
+        GameManager.Instance.bPlayerMove = true;
     }
 
+    IEnumerator SetfadeColor(float settime)
+    {
+        float nowtime = 0;
+        float cEach;
+        while (nowtime != settime)
+        {
+            nowtime += 0.1f;
+            cEach = Mathf.Lerp(0, 0.235f, nowtime / settime);
+            vignette.color.value = new Color(cEach, cEach, cEach);
+            yield return new WaitForSeconds(0.1f);
+        }
+    }
     //층이동 할때 카메라 페이딩(pp사용, 빛효과)
     //settime => 재생시간/2, startvaule => 이코드 실행시의 vignette.intensity.value , endvalue => 변환하고자 하는값 
     //waitingtime => fade 실행까지의 시간
@@ -67,6 +81,7 @@ public class CameraSet : MonoBehaviour
         while(setvalue != endvalue)
         {
             nowtime += 0.05f;
+            //easing 식  nowtime == 0 ? 0 : Math.pow(2, 10 * nowtime - 10);
             setvalue = Mathf.Lerp(startvalue, endvalue, nowtime / settime);
             Mathf.Clamp(setvalue, 0, 1);
             vignette.intensity.value = setvalue;

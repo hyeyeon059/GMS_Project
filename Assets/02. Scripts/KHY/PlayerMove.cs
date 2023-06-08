@@ -26,9 +26,19 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
-        PlayerMovement();
-        Rotation();
-        InteractionRay();
+        if (GameManager.Instance.bPlayerMove)
+        {
+            PlayerMovement();
+            Rotation();
+            InteractionRay();
+        }
+        else
+        {
+            rb.velocity = Vector3.zero;
+            animator.SetBool("IsIdle", true);
+            animator.SetFloat("PosX", 0);
+            animator.SetFloat("PosY", 0);
+        }
     }
 
     private void PlayerMovement()
@@ -45,9 +55,9 @@ public class PlayerMove : MonoBehaviour
             constY = v;
         }
 
-        animator.SetBool("IsIdle", dir.x+dir.y==0);
-        animator.SetFloat("PosX",dir.x);
-        animator.SetFloat("PosY",dir.y);
+        animator.SetBool("IsIdle", dir.x + dir.y == 0);
+        animator.SetFloat("PosX", constX);
+        animator.SetFloat("PosY", constY);
     }
 
     private void Rotation()

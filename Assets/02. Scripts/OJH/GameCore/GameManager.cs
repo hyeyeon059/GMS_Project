@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro.EditorUtilities;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 enum Item
 {
@@ -22,18 +23,29 @@ public class GameManager : MonoBehaviour
 
     public bool RoomChanging = false;   //방이동때 켜주는 변수
     public bool bPlayerMove = true;     //플레이어가 움직일수있는지 체크해주는 변수
+    public bool flashOn = false;
 
     public GameObject Player;           //플레이어 관련 
 
+    public KeyCode InteractionKey = KeyCode.F;
 
     public void Delay(float delay,Action action) => StartCoroutine(SetDelay(delay, action));
 
+    public void Flashing()
+    {
+        flashOn = !flashOn;
+        CameraSet cs = GameObject.FindObjectOfType<CameraSet>().GetComponent<CameraSet>();
+        if (flashOn) cs.Flashon();
+        else if (!flashOn) cs.Flashoff();
+    }
 
     private void Awake()
     {
         if (Instance != null)
             Debug.LogError("2gamemanager");
         Instance = this;
+        if (Player == null)
+            Player = GameObject.FindAnyObjectByType<PlayerMove>().gameObject;
     }
 
     public IEnumerator SetDelay(float delay,Action action)

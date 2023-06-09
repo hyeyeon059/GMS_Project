@@ -30,11 +30,6 @@ public class PlayerControl : MonoBehaviour
         iDCard = transform.GetChild(2).gameObject;
     }
 
-    private void Start()
-    {
-        GameManager.Instance.Player = this.gameObject;
-    }
-
         void Update()
     {
         Move();
@@ -64,21 +59,32 @@ public class PlayerControl : MonoBehaviour
     private void InteractionRay()
     {
         Debug.DrawRay(transform.position, new Vector2(constX, constY), Color.red);
-        if (Physics2D.Raycast(transform.position, new Vector2(constX, constY), 1, 1 << LayerMask.NameToLayer("Box")))
-        {
-            if (Input.GetKeyDown(KeyCode.F))
-            {
-                lockpickHave = true;
-                lockPick.gameObject.SetActive(lockpickHave);
-            }
-        }
 
-        if (Physics2D.Raycast(transform.position, new Vector2(constX, constY), 1, 1 << LayerMask.NameToLayer("IDCard")))
+        if (Input.GetKeyDown(KeyCode.F))
         {
-            if (Input.GetKeyDown(KeyCode.F))
+            RaycastHit2D hitInfo =
+                Physics2D.Raycast(transform.position, new Vector2(constX, constY), 1, 1 << LayerMask.NameToLayer("Interaction"));
+            if (hitInfo.transform != null)
             {
-                iDCardHave = true;
-                iDCard.gameObject.SetActive(iDCardHave);
+                TextBock tb;
+                if (hitInfo.transform.gameObject.TryGetComponent<TextBock>(out tb) && !TextManager.Instance.OnText)
+                {
+                    TextManager.Instance.PopText(tb.Name, tb.Texts);
+                }
+
+                switch (hitInfo.transform.tag)
+                {
+                    case "LockPick":
+                        lockpickHave = true;
+                        lockPick.gameObject.SetActive(lockpickHave);
+                        break;
+                    case "IDCard":
+                        iDCardHave = true;
+                        iDCard.gameObject.SetActive(iDCardHave);
+                        break;
+                    default:
+                        break;
+                }
             }
         }
     }

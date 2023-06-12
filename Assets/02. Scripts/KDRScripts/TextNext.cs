@@ -32,7 +32,7 @@ public class TextNext : MonoBehaviour
         {
             _current += Time.deltaTime * _p;
             _persent = Mathf.Pow(_current, 2) / 0.5f;
-            if (_current > 1 || _current < 0)
+            if (_persent > 1 || _current < 0)
             {
                 _p *= -1;
                 break;

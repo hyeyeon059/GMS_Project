@@ -8,7 +8,7 @@ public class ESC : MonoBehaviour
     private bool active1;
     void Start()
     {
-        
+
     }
 
     void Update()
@@ -17,6 +17,10 @@ public class ESC : MonoBehaviour
         {
             ESCPanel.gameObject.SetActive(true);
             active1 = true;
+
+            Time.timeScale = 0;
+            Debug.Log("ESC");
         }
+
     }
 }

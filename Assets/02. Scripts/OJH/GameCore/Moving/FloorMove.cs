@@ -22,7 +22,8 @@ public class FloorMove : MonoBehaviour
             {
                 j = i == 0 ? 1 : i % 2 == 1 ? -1 : 1;  //0과 1을  -1과 1로 바꿔주는것
 
-                vect = j > 0 ? Vector3.up * 2 : Vector3.down * 2;
+                //vect = j > 0 ? Vector3.up * 2 : Vector3.down * 2;
+                vect = Vector3.up * 0.7f;
                 GameManager.Instance.NowFloor = i-1;
                 break;
             }

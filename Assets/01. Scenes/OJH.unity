@@ -6079,6 +6079,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  lockpickHave: 0
+  iDCardHave: 0
 --- !u!50 &878555753
 Rigidbody2D:
   serializedVersion: 4

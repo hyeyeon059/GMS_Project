@@ -55,7 +55,7 @@ public class PlayerMove : MonoBehaviour
             constY = v;
         }
 
-        animator.SetBool("IsIdle", dir.x + dir.y == 0);
+        animator.SetBool("IsIdle", dir.x == 0 && dir.y == 0);
         animator.SetFloat("PosX", constX);
         animator.SetFloat("PosY", constY);
     }

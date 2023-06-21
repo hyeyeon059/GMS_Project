@@ -16,8 +16,9 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
     public int NowFloor { get; set; }
 
-    [Header("Empty Object를 만들고 collider와 floormove 스크립트를 넣고\n 그 오브젝트를 각 지점에 놓는다. (모르겠으면 pjh²로 DM)")]
-    public List<GameObject> FloorPos = new List<GameObject>();
+    //[Header("Empty Object를 만들고 collider와 floormove 스크립트를 넣고\n 그 오브젝트를 각 지점에 놓는다. (모르겠으면 pjh²로 DM)")]
+    public List<FloorMove> FloorPos = new List<FloorMove>();
+
     public List<int> inventoryItem = new List<int>();
     public int usingItem;               //손에 든 아이템
 
@@ -41,6 +42,8 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        FloorPos.AddRange(transform.gameObject.GetComponentsInChildren<FloorMove>());
+        Debug.Log(FloorPos);
         if (Instance != null)
             Debug.LogError("2gamemanager");
         Instance = this;

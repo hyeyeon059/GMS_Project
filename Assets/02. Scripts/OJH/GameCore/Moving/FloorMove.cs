@@ -16,7 +16,7 @@ public class FloorMove : MonoBehaviour
         GameManager.Instance.bPlayerMove = false;
         int i = 0, j = 0;
         Vector3 vect = Vector3.zero;
-        foreach (GameObject t in GameManager.Instance.FloorPos)
+        foreach (FloorMove t in GameManager.Instance.FloorPos)
         {
             if (t.transform.position == this.transform.position)
             {

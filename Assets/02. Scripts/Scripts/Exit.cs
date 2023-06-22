@@ -9,13 +9,4 @@ public class Exit : MonoBehaviour
         Application.Quit();
         Debug.Log("Exit");
     }
-        void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
 }

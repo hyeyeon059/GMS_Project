@@ -6,11 +6,6 @@ public class ESC : MonoBehaviour
 {
     public GameObject ESCPanel;
     private bool active1;
-    void Start()
-    {
-
-    }
-
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))

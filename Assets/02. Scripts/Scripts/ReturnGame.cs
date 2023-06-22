@@ -6,15 +6,6 @@ public class ReturnGame : MonoBehaviour
 {
     public GameObject ESCPanel;
     private bool active;
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
     public void returnGame()
     {
             ESCPanel.gameObject.SetActive(false);

@@ -44,6 +44,11 @@ public class TextManager : MonoBehaviour
 
     public void PopText(string name, string[] text)
     {
+        if (_textCanvas.activeSelf)
+        {
+            return;
+        }
+        GameManager.Instance.bPlayerMove = false;
         _textNumber = 0;
         _textCanvas.SetActive(true);
         _name.text = name;
@@ -63,6 +68,7 @@ public class TextManager : MonoBehaviour
         if (_textNumber >= _textBook.Length)
         {
             _textCanvas.SetActive(false);
+            GameManager.Instance.bPlayerMove = true;
             return;
         }
 

@@ -53,3 +53,9 @@ TagManager:
   - name: Popup
     uniqueID: 3511523045
     locked: 0
+  - name: Interaction
+    uniqueID: 909879831
+    locked: 0
+  - name: Picture
+    uniqueID: 2097507617
+    locked: 0

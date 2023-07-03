@@ -8,6 +8,7 @@ public class PlayerMove : MonoBehaviour
     private float constY;
     private float moveSpeed = 5f;
     private bool lockpickHave = false;
+    private bool iDCardHave = false;
 
     private Rigidbody2D rb;
     private GameObject flash;
@@ -46,7 +47,7 @@ public class PlayerMove : MonoBehaviour
         float h = Input.GetAxisRaw("Horizontal");
         float v = Input.GetAxisRaw("Vertical");
 
-        Vector2 dir = new Vector2(h, v);
+        Vector2 dir = new Vector2(h, v).normalized;
         rb.velocity = dir* moveSpeed;
 
         if (h != 0 || v != 0)   //방향 유지
@@ -70,6 +71,37 @@ public class PlayerMove : MonoBehaviour
     {
         Debug.DrawRay(transform.position, new Vector2(constX, constY), Color.red);
 
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            RaycastHit2D hitInfo =
+                Physics2D.Raycast(transform.position, new Vector2(constX, constY), 1, 1 << LayerMask.NameToLayer("Interaction"));
+            if (hitInfo.transform != null)
+            {
+                TextBock tb;
+                if (hitInfo.transform.gameObject.TryGetComponent<TextBock>(out tb) && !TextManager.Instance.OnText)
+                {
+                    TextManager.Instance.PopText(tb.Name, tb.Texts);
+                }
+
+                switch (hitInfo.transform.tag)
+                {
+                    case "LockPick":
+                        lockpickHave = true;
+                        lockPick.gameObject.SetActive(lockpickHave);
+                        break;
+                    case "IDCard":
+                        iDCardHave = true;
+                        break;
+                    default:
+                        break;
+                }
+            }
+        }
+    }
+    /*private void InteractionRay()
+    {
+        Debug.DrawRay(transform.position, new Vector2(constX, constY), Color.red);
+
         if (Physics2D.Raycast(transform.position, new Vector2(constX, constY), 1, 1 << LayerMask.NameToLayer("Box")))
         {
             if (Input.GetKeyDown(KeyCode.F))
@@ -78,5 +110,5 @@ public class PlayerMove : MonoBehaviour
                 lockPick.gameObject.SetActive(lockpickHave);
             }
         }
-    }
+    }*/
 }

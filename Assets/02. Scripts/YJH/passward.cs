@@ -8,25 +8,27 @@ public class passward : MonoBehaviour
 {
 
     [SerializeField] TMP_InputField password;
-    int passwardwrite = 0;
-    int right = 3028;
+    
+    
+   [SerializeField] string text = "Saint";
+    bool wrong = false;
+  
     void Start()
     {
-        passwardwrite = int.Parse(password.text);
-        Debug.Log("ok");
-      
+       
     }
 
    
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-         {
-            if (passwardwrite == right)
-            {
-                Debug.Log("open");
-            }
-            else Debug.Log("return");
+        if(text==password.text)
+          {
+             box.instance.Out();
+              Debug.Log("ok");
+          }
+        else
+        {
+            Debug.Log("no");
         }
     }
 }

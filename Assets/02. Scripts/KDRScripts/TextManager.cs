@@ -48,12 +48,16 @@ public class TextManager : MonoBehaviour
         {
             return;
         }
-        GameManager.Instance.bPlayerMove = false;
-        _textNumber = 0;
-        _textCanvas.SetActive(true);
-        _name.text = name;
-        _textBook = text;
-        NextText();
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.bPlayerMove = false;
+        }
+            _textNumber = 0;
+            _textCanvas.SetActive(true);
+            _name.text = name;
+            _textBook = text;
+            NextText();
+        
     }
 
     public void NextText()
@@ -65,16 +69,22 @@ public class TextManager : MonoBehaviour
         }
 
         _next.SetActive(false);
-        if (_textNumber >= _textBook.Length)
+        if (GameManager.Instance != null)
         {
-            _textCanvas.SetActive(false);
-            GameManager.Instance.bPlayerMove = true;
-            return;
+            if (_textNumber >= _textBook.Length)
+            {
+                _textCanvas.SetActive(false);
+                GameManager.Instance.bPlayerMove = true;
+                return;
+            }
         }
 
-        _text.text = "";
-        StartCoroutine("TextPrint", 20);
-        _textNumber++;
+
+            _text.text = "";
+            StartCoroutine("TextPrint", 20);
+            _textNumber++;
+        
+        
     }
 
     private void SkipText()

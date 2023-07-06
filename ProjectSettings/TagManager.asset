@@ -47,14 +47,17 @@ TagManager:
   - name: Background
     uniqueID: 701792505
     locked: 0
+  - name: Interaction
+    uniqueID: 909879831
+    locked: 0
   - name: Player
     uniqueID: 1313301875
     locked: 0
+  - name: Bunsu
+    uniqueID: 365309535
+    locked: 0
   - name: Popup
     uniqueID: 3511523045
-    locked: 0
-  - name: Interaction
-    uniqueID: 909879831
     locked: 0
   - name: Picture
     uniqueID: 2097507617

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2386bf0d91186f04ba3f50f12d1315c0
+guid: aaa6672096f33ff479f5c8e5298a3f1e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,169 +105,113 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: piano_0
+      name: bunsu_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
-        width: 16
-        height: 16
+        y: 47
+        width: 128
+        height: 81
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 33, y: -55}
+        - {x: 18, y: -59}
+        - {x: -18, y: -59}
+        - {x: -33, y: -55}
+        - {x: -46, y: -46}
+        - {x: -46, y: -36}
+        - {x: -40, y: -29}
+        - {x: -29, y: -22}
+        - {x: -15, y: -20}
+        - {x: 15, y: -20}
+        - {x: 29, y: -22}
+        - {x: 39, y: -29}
+        - {x: 46, y: -36}
+        - {x: 46, y: -46}
       tessellationDetail: 0
       bones: []
-      spriteID: 0cf6e1266ca21be45bd740f68ded9e17
-      internalID: 1315543527
+      spriteID: 7ff4584ecf933b34d838af41a71dfde5
+      internalID: 223705524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: piano_1
+      name: bunsu_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 48
-        width: 16
-        height: 16
+        x: 128
+        y: 47
+        width: 128
+        height: 81
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 33, y: -55}
+        - {x: 18, y: -59}
+        - {x: -18, y: -59}
+        - {x: -33, y: -55}
+        - {x: -46, y: -46}
+        - {x: -46, y: -36}
+        - {x: -40, y: -29}
+        - {x: -29, y: -22}
+        - {x: -15, y: -20}
+        - {x: 15, y: -20}
+        - {x: 29, y: -22}
+        - {x: 39, y: -29}
+        - {x: 46, y: -36}
+        - {x: 46, y: -46}
       tessellationDetail: 0
       bones: []
-      spriteID: 6ed1170d989e7e447b70132b1600b7df
-      internalID: 1338111805
+      spriteID: 73536f5e46fae5e43bd25635ebac1239
+      internalID: 1583703726
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: piano_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3cbc08703e9a7fc4786109474cef4788
-      internalID: 1366844371
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: piano_3
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3186dbc6e2055749a3bcee43cb50721
-      internalID: -1013920293
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: piano_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 47643e6b6982c0a409179c2f3f9a9386
-      internalID: -1501739423
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: piano_5
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a1b03d824f4a9de4c8c3a53669d55859
-      internalID: -1894445076
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: piano_6
+      name: bunsu_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 128
+        height: 47
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75631e6c01e19144e8e2c5afdeb3aeed
-      internalID: -155956080
+      spriteID: 58b44a9e4471ed74ca09e5406e5cd2b5
+      internalID: -208229393
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: piano_7
+      name: bunsu_3
       rect:
         serializedVersion: 2
-        x: 16
+        x: 128
         y: 0
-        width: 16
-        height: 16
+        width: 128
+        height: 47
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c75930da30ad155418a3d9d22e8ee2a7
-      internalID: -946572552
+      spriteID: 5b10951ca6ecb724da2a75b571c350db
+      internalID: -1129672291
       vertices: []
       indices: 
       edges: []
@@ -283,14 +227,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      piano_0: 1315543527
-      piano_1: 1338111805
-      piano_2: 1366844371
-      piano_3: -1013920293
-      piano_4: -1501739423
-      piano_5: -1894445076
-      piano_6: -155956080
-      piano_7: -946572552
+      bunsu_0: 223705524
+      bunsu_1: 1583703726
+      bunsu_2: -208229393
+      bunsu_3: -1129672291
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

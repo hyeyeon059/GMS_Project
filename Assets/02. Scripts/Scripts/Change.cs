@@ -7,6 +7,6 @@ public class Change : MonoBehaviour
 {
     public void LoadToMainScene()
     {
-        SceneManager.LoadScene("KHY");
+        SceneManager.LoadScene("Startscene");
     }
 }

@@ -106,4 +106,6 @@ public class TextManager : MonoBehaviour
         _next.SetActive(true);
         _isWriting = false;
     }
+
+    
 }

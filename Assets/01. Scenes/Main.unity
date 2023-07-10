@@ -17816,7 +17816,7 @@ MonoBehaviour:
   - "[\uC8FC\uAE30\uC728\uD45C]"
   - "\uC218\uB9CE\uC740 \uC6D0\uC18C\uB4E4\uC774 \uBE7C\uACE1\uD558\uAC8C \uC801\uD600\uC788\uB2E4"
   - "*\uC8FC\uAE30\uC728\uD45C\uB97C \uD68D\uB4DD\uD588\uB2E4"
-  Item: {fileID: 0}
+  Item: {fileID: 21300000, guid: 84d438c6ae18a694582ae090537df07f, type: 3}
   ItemType: 0
 --- !u!61 &573768557
 BoxCollider2D:
@@ -27418,7 +27418,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: 
   Texts:
-  - "*\uC545\uBCF4\uB97C \uD68D\uB4DD\uD5C0\uB2E4"
+  - "*\uC545\uBCF4\uB97C \uD68D\uB4DD\uD588\uB2E4"
   Item: {fileID: 21300000, guid: 7ef0c3da705d46e41a14064fe22a71fd, type: 3}
   ItemType: 0
 --- !u!61 &862956583
@@ -62806,7 +62806,7 @@ MonoBehaviour:
   Name: 
   Texts:
   - "[\uD638\uB974\uBAAC \uD6A8\uACFC\uC758 \uADF9\uB300\uD654\uBC95]"
-  - "\uC54C\uAD6C\uC5C6\uB294 \uACF5\uC2DD\uB4E4\uC774 \uC4F0\uC5EC\uC788\uB2E4"
+  - "\uC54C \uC218 \uC5C6\uB294 \uACF5\uC2DD\uB4E4\uC774 \uC4F0\uC5EC\uC788\uB2E4"
   Item: {fileID: 0}
   ItemType: 0
 --- !u!61 &1798816214

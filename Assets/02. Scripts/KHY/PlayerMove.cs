@@ -78,7 +78,7 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F))
         {
             RaycastHit2D hitInfo =
-                Physics2D.Raycast(transform.position, new Vector2(constX, constY), 1, 1 << LayerMask.NameToLayer("Interaction"));
+                Physics2D.Raycast(transform.position, new Vector2(constX, constY).normalized * 1.5f, 1, 1 << LayerMask.NameToLayer("Interaction"));
             if (hitInfo.transform != null)
             {
                 DistanceCheck dc;

@@ -7,9 +7,6 @@ public class Clicker : MonoBehaviour
     public static int click = 10;
     public int Click = click;
 
-    [SerializeField] 
-    AudioSource audio;
-
     [SerializeField]
     GameObject endClick;
     

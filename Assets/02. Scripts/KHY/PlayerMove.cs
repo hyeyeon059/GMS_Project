@@ -17,12 +17,16 @@ public class PlayerMove : MonoBehaviour
 
     Quaternion playerRot;
 
+    private void Awake()
+    {
+        flash = transform.GetChild(0).gameObject;
+        lockPick = transform.GetChild(1).gameObject;
+    }
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        flash = transform.GetChild(0).gameObject;
-        lockPick = transform.GetChild(1).gameObject;
     }
 
     void Update()
@@ -77,10 +81,19 @@ public class PlayerMove : MonoBehaviour
                 Physics2D.Raycast(transform.position, new Vector2(constX, constY), 1, 1 << LayerMask.NameToLayer("Interaction"));
             if (hitInfo.transform != null)
             {
+                DistanceCheck dc;
                 TextBock tb;
-                if (hitInfo.transform.gameObject.TryGetComponent<TextBock>(out tb) && !TextManager.Instance.OnText)
+                if (hitInfo.transform.gameObject.TryGetComponent<DistanceCheck>(out dc) && !TextManagerAction.Instance.OnText)
                 {
-                    TextManager.Instance.PopText(tb.Name, tb.Texts);
+                    dc.Event?.Invoke();
+                }
+                else if (hitInfo.transform.gameObject.TryGetComponent<TextBock>(out tb) && !TextManagerAction.Instance.OnText)
+                {
+                    TextManagerAction.Instance.PopText(tb.Name, tb.Texts, tb.Item, (int)tb.ItemType, tb.transform.position);
+                    if (tb.Item != null)
+                    {
+                        tb.gameObject.SetActive(false);
+                    }
                 }
 
                 switch (hitInfo.transform.tag)

@@ -8,12 +8,11 @@ public class DistanceCheck : MonoBehaviour
     [SerializeField]
     int ItemInfo;
 
-
     //[SerializeField]
     //AudioSource audioSource;
-    
+
     [SerializeField]
-    UnityEvent Event;
+    public UnityEvent Event;
 
     private void Start()
     {
@@ -21,7 +20,7 @@ public class DistanceCheck : MonoBehaviour
     }
 
     private void Update()
-    {
+    {/*
         if (GameManager.Instance.bPlayerMove)
         {
             if(Vector2.Distance(GameManager.Instance.Player.transform.position, this.transform.position) < 2.5f)
@@ -31,7 +30,7 @@ public class DistanceCheck : MonoBehaviour
                     Event?.Invoke();
                 }
             }
-        }   
+        }*/
     }
 
     public void GetItem()
@@ -44,7 +43,6 @@ public class DistanceCheck : MonoBehaviour
     {
         clicker.gameObject.SetActive(true);
         GameManager.Instance.bPlayerMove = false;
-        this.gameObject.SetActive(false);
     }
 
     public void OnMouseDown()

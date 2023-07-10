@@ -56,7 +56,7 @@ public class UIManager : MonoBehaviour
 
     public void PassiveItemAdd(Sprite s)
     {
-        for (int i = 0; i < _passiveItem.transform.childCount; i--)
+        for (int i = 0; i < _passiveItem.transform.childCount; i++)
         {
             if (_passiveItem.transform.GetChild(i).transform.GetChild(0).GetComponent<Image>().sprite.name == "Null")
             {

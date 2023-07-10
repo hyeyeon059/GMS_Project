@@ -93,8 +93,8 @@ public class TextManagerAction : MonoBehaviour
                 else if (_itemType == 1)
                     UIManager.Instance.PassiveItemAdd(_item);
                 _item = null;
+                _tilemap.SetTile(_TileCellPos, null);
             }
-            _tilemap.SetTile(_TileCellPos, null);
             return;
         }
 

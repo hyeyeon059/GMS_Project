@@ -40,7 +40,7 @@ public class PrintText : MonoBehaviour
             "(...? ´©°¡ µû¶ó¿À³ª?)",
         },
         new string[] {
-            "µÚ¸¦ µ·´Ù"
+            "(µÚ¸¦ µ·´Ù)"
         },
         new string[] {
             "¹¹..¹¹Áö ¾Æ¹«°Íµµ ¾øÀÝ¾Æ? ÀÌ°Ô ¹¹¾ß ±âºÐ³ª»Ú³×...",
@@ -91,8 +91,7 @@ public class PrintText : MonoBehaviour
             _fade.color -= new Color(0.3f, 0.3f, 0.3f, -0.3f) * Time.deltaTime;
             yield return null;
             SceneManager.LoadScene("Main");
-            yield return null;//ÇìÇìÇò
+            yield return null;
         }
-
     }
 }

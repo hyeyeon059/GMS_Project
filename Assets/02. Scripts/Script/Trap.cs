@@ -1,28 +1,39 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Trap : MonoBehaviour
 {
-    public SpriteRenderer spriteRenderer;
+    private Image image;
 
     private AudioSource audioS;
-    
+
+    private void Awake()
+    {
+        audioS = GetComponent<AudioSource>();
+        image = GetComponent<Image>();
+    }
+
+    private void OnEnable()
+    {
+        image.enabled = true;
+        image.color = Color.white;
+    }
 
     private void Start()
     {
-        spriteRenderer.enabled = false;
-
-        audioS = GetComponent<AudioSource>();
-
+        image.enabled = false;
     }
+    
 
-    private void Update()
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        if (collision.CompareTag("Player"))
         {
             audioS.Play();
-            spriteRenderer.enabled = true;
+            image.enabled = true;
             Invoke("Des", 2f);
         }
     }
@@ -40,11 +51,10 @@ public class Trap : MonoBehaviour
         {
             current += Time.deltaTime;
             persent = current / time;
-            spriteRenderer.color = Color.Lerp(new Color(1, 1, 1, 1), new Color(1, 1, 1, 0), persent);
+            image.color = Color.Lerp(new Color(1, 1, 1, 1), new Color(1, 1, 1, 0), persent);
 
             yield return null;
         }
-        spriteRenderer.enabled = false;
-
+        image.enabled = false;
     }
 }

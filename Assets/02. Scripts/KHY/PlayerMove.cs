@@ -82,10 +82,15 @@ public class PlayerMove : MonoBehaviour
             if (hitInfo.transform != null)
             {
                 DistanceCheck dc;
+                QTEOn qte;
                 TextBock tb;
                 if (hitInfo.transform.gameObject.TryGetComponent<DistanceCheck>(out dc) && !TextManagerAction.Instance.OnText)
                 {
                     dc.Event?.Invoke();
+                }
+                else if (hitInfo.transform.gameObject.TryGetComponent<QTEOn>(out qte) && !TextManagerAction.Instance.OnText)
+                {
+                    qte.QTE();
                 }
                 else if (hitInfo.transform.gameObject.TryGetComponent<TextBock>(out tb) && !TextManagerAction.Instance.OnText)
                 {

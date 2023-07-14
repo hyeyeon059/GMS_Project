@@ -13,6 +13,7 @@ public class TextManagerAction : MonoBehaviour
     private TextMeshProUGUI _text;
     private GameObject _next;
     private Sprite _item;
+    private int _itemNum;
     private int _itemType;
     private Vector3Int _TileCellPos;
     private string[] _textBook = { };
@@ -49,7 +50,7 @@ public class TextManagerAction : MonoBehaviour
         }
     }
 
-    public void PopText(string name, string[] text, Sprite s, int itemType, Vector3 pos)
+    public void PopText(string name, string[] text, Sprite s, int itemType, Vector3 pos, int itemNum)
     {
         if (_textCanvas.activeSelf)
         {
@@ -65,6 +66,7 @@ public class TextManagerAction : MonoBehaviour
         _textBook = text;
         _item = s;
         _itemType = itemType;
+        _itemNum = itemNum;
         _TileCellPos = _tilemap.WorldToCell(pos);
         NextText();
         
@@ -91,7 +93,11 @@ public class TextManagerAction : MonoBehaviour
                 if (_itemType == 0)
                     UIManager.Instance.ActiveItemAdd(_item);
                 else if (_itemType == 1)
+                {
                     UIManager.Instance.PassiveItemAdd(_item);
+                    GameManager.Instance.inventoryItem.Add(_itemNum);
+                }
+                    
                 _item = null;
                 _tilemap.SetTile(_TileCellPos, null);
             }

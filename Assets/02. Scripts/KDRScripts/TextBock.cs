@@ -18,4 +18,6 @@ public class TextBock : MonoBehaviour
     public Sprite Item;
     [SerializeField]
     public ItemTypes ItemType = ItemTypes.Active;
+    [SerializeField]
+    public int ItemNumber = 0;
 }

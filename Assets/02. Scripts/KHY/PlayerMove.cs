@@ -31,6 +31,10 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
+        for (int i = 0; i < GameManager.Instance.inventoryItem.Count; i++)
+        {
+            Debug.Log(GameManager.Instance.inventoryItem[i]);
+        }
         if (GameManager.Instance.bPlayerMove)
         {
             PlayerMovement();
@@ -82,14 +86,27 @@ public class PlayerMove : MonoBehaviour
             if (hitInfo.transform != null)
             {
                 DistanceCheck dc;
+                QTEOn qte;
+                PasswardDoor pd;
                 TextBock tb;
                 if (hitInfo.transform.gameObject.TryGetComponent<DistanceCheck>(out dc) && !TextManagerAction.Instance.OnText)
                 {
                     dc.Event?.Invoke();
                 }
+                else if (hitInfo.transform.gameObject.TryGetComponent<QTEOn>(out qte) && !TextManagerAction.Instance.OnText)
+                {
+                    qte.QTE();
+                }
+                else if (hitInfo.transform.gameObject.TryGetComponent<PasswardDoor>(out pd) && !TextManagerAction.Instance.OnText)
+                {
+                    if (pd.F)
+                    {
+                        pd.InputOn();
+                    }
+                }
                 else if (hitInfo.transform.gameObject.TryGetComponent<TextBock>(out tb) && !TextManagerAction.Instance.OnText)
                 {
-                    TextManagerAction.Instance.PopText(tb.Name, tb.Texts, tb.Item, (int)tb.ItemType, tb.transform.position);
+                    TextManagerAction.Instance.PopText(tb.Name, tb.Texts, tb.Item, (int)tb.ItemType, tb.transform.position, tb.ItemNumber);
                     if (tb.Item != null)
                     {
                         tb.gameObject.SetActive(false);

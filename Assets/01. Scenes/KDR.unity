@@ -366,7 +366,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0.00024425983, z: 0}
+  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -7764,7 +7764,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0.00024425983, z: 0}
+  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -17879,6 +17879,8 @@ MonoBehaviour:
     hahahaha'
   - djfghsdfg
   - kimdongryul
+  Item: {fileID: 0}
+  ItemType: 0
 --- !u!1 &1163353062
 GameObject:
   m_ObjectHideFlags: 0
@@ -19834,7 +19836,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1930167195
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19993,3 +19995,5 @@ MonoBehaviour:
     wow
 
     hahaha'
+  Item: {fileID: 0}
+  ItemType: 0

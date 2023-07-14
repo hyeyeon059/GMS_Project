@@ -83,7 +83,7 @@ public class QTE : MonoBehaviour
 
     private void QTEEND()
     {
-        TextManagerAction.Instance.PopText(_text.Name, _text.Texts, _text.Item, (int)_text.ItemType, _text.transform.position);
+        TextManagerAction.Instance.PopText(_text.Name, _text.Texts, _text.Item, (int)_text.ItemType, _text.transform.position, _text.ItemNumber);
         if (_text.Item != null)
         {
             _text.gameObject.SetActive(false);

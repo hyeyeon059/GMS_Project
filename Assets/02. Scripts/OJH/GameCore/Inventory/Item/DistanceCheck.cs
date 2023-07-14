@@ -5,8 +5,6 @@ using UnityEngine.Events;
 
 public class DistanceCheck : MonoBehaviour
 {
-    [SerializeField]
-    int ItemInfo;
 
     //[SerializeField]
     //AudioSource audioSource;
@@ -33,22 +31,10 @@ public class DistanceCheck : MonoBehaviour
         }*/
     }
 
-    public void GetItem()
-    {
-        GameManager.Instance.inventoryItem.Add(ItemInfo);
-        this.gameObject.SetActive(false);
-    }
-
     public void Clicker(GameObject clicker)
     {
         clicker.gameObject.SetActive(true);
         GameManager.Instance.bPlayerMove = false;
-    }
-
-    public void OnMouseDown()
-    {
-        //audioSource.Play();
-        GetItem();
     }
 }
 

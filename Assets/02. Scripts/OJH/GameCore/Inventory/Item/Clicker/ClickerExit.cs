@@ -5,7 +5,7 @@ using UnityEngine;
 public class ClickerExit : MonoBehaviour
 {
     [SerializeField]
-    GameObject[] Clicker;
+    GameObject[] clicker;
 
 
     [SerializeField]
@@ -14,12 +14,10 @@ public class ClickerExit : MonoBehaviour
     public void Exit()
     {
         GameManager.Instance.bPlayerMove = true;
-        Clicker[0].SetActive(true);
-        Clicker[1].SetActive(false);
-        Clicker[2].SetActive(false);
-        if (GameManager.Instance.inventoryItem.Contains(1))
+        clicker[0].SetActive(false);
+        if (Clicker.click == 0)
         {
-            TextManagerAction.Instance.PopText(_interaction.Name, _interaction.Texts, _interaction.Item, (int)_interaction.ItemType, _interaction.transform.position);
+            TextManagerAction.Instance.PopText(_interaction.Name, _interaction.Texts, _interaction.Item, (int)_interaction.ItemType, _interaction.transform.position, _interaction.ItemNumber);
             if (_interaction.Item != null)
             {
                 _interaction.gameObject.SetActive(false);

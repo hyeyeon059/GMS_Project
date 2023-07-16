@@ -5,36 +5,37 @@ using UnityEngine.UI;
 
 public class Trap : MonoBehaviour
 {
+    [SerializeField]
     private Image image;
 
+    [SerializeField]
     private AudioSource audioS;
 
     private void Awake()
     {
-        audioS = GetComponent<AudioSource>();
-        image = GetComponent<Image>();
+        audioS = FindObjectOfType<AudioSource>();
     }
 
     private void OnEnable()
     {
-        image.enabled = true;
-        image.color = Color.white;
     }
 
     private void Start()
     {
         image.enabled = false;
     }
-    
 
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if(collision.gameObject.CompareTag("Player"))
         {
             audioS.Play();
+            image.color = Color.white;
             image.enabled = true;
             Invoke("Des", 2f);
+
+            GameManager.Instance.bPlayerMove = false;
+            Invoke("PlayerMove", 3f);
         }
     }
 
@@ -56,5 +57,10 @@ public class Trap : MonoBehaviour
             yield return null;
         }
         image.enabled = false;
+    }
+
+    private void PlayerMove()
+    {
+        GameManager.Instance.bPlayerMove = true;
     }
 }

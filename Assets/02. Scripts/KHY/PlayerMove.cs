@@ -95,7 +95,14 @@ public class PlayerMove : MonoBehaviour
                 }
                 else if (hitInfo.transform.gameObject.TryGetComponent<QTEOn>(out qte) && !TextManagerAction.Instance.OnText)
                 {
-                    qte.QTE();
+                    if (GameManager.Instance.inventoryItem.Contains(8))
+                    {
+                        qte.QTE();
+                    }
+                    else
+                    {
+                        TextManagerAction.Instance.PopText("", new string[] {"피아노다", "칠 수 있을 것 같다"}, null, 0, Vector3.zero, 0);
+                    }
                 }
                 else if (hitInfo.transform.gameObject.TryGetComponent<PasswardDoor>(out pd) && !TextManagerAction.Instance.OnText)
                 {

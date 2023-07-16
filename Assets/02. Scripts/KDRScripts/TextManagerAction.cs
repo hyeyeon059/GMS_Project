@@ -95,9 +95,12 @@ public class TextManagerAction : MonoBehaviour
                 else if (_itemType == 1)
                 {
                     UIManager.Instance.PassiveItemAdd(_item);
+                }
+                if (_itemNum != 0)
+                {
                     GameManager.Instance.inventoryItem.Add(_itemNum);
                 }
-                    
+
                 _item = null;
                 _tilemap.SetTile(_TileCellPos, null);
             }

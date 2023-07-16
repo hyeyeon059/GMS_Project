@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class TextManager : MonoBehaviour
@@ -14,6 +15,9 @@ public class TextManager : MonoBehaviour
     private string[] _textBook = { };
 
     private int _textNumber = 0;
+
+    [SerializeField]
+    private bool _sceneChange = false;
 
     private bool _isWriting = false;
     public bool OnText
@@ -79,8 +83,22 @@ public class TextManager : MonoBehaviour
             }
         }
 
+        if (_textNumber >= _textBook.Length)
+        {
+            _textCanvas.SetActive(false);
+            if (GameManager.Instance != null)
+            {
+                GameManager.Instance.bPlayerMove = true;
+            }
 
-            _text.text = "";
+            if (_sceneChange)
+            {
+                SceneManager.LoadScene("Start");
+            }
+            return;
+        }
+
+        _text.text = "";
             StartCoroutine("TextPrint", 20);
             _textNumber++;
         

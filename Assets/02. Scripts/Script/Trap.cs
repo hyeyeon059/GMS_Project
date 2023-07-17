@@ -32,6 +32,7 @@ public class Trap : MonoBehaviour
             audioS.Play();
             image.color = Color.white;
             image.enabled = true;
+            collision.transform.position = new Vector3(24.5f, 102.5f, 0);
             Invoke("Des", 2f);
 
             GameManager.Instance.bPlayerMove = false;

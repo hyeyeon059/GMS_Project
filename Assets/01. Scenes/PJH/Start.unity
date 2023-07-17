@@ -1738,7 +1738,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -575, y: 237}
+  m_AnchoredPosition: {x: -545, y: 364}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &572925506
@@ -1762,7 +1762,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\uC774\uB3D9\t- WASD, \u2190\u2191\u2193\u2192\n\n\uC0C1\uD638\uC791\uC6A9\t-
-    F\n\n\uC190\uC804\uB4F1\t- R"
+    F\n\n\uC778\uBCA4\uD1A0\uB9AC\t- \uC22B\uC790\uD0A4\n\n\uC190\uC804\uB4F1\t-
+    R"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 43551f2385fdee049ae17d1fd2037fd2, type: 2}
   m_sharedMaterial: {fileID: -7880727128934437603, guid: 43551f2385fdee049ae17d1fd2037fd2, type: 2}
@@ -1952,7 +1953,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -575, y: 237}
+  m_AnchoredPosition: {x: -568, y: 368}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &642599349
@@ -1976,7 +1977,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\uC774\uB3D9\t- WASD, \u2190\u2191\u2193\u2192\n\n\uC0C1\uD638\uC791\uC6A9\t-
-    F\n\n\uC190\uC804\uB4F1\t- R"
+    F\n\n\uC778\uBCA4\uD1A0\uB9AC\t- \uC22B\uC790\uD0A4\n\n\uC190\uC804\uB4F1\t-
+    R"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 43551f2385fdee049ae17d1fd2037fd2, type: 2}
   m_sharedMaterial: {fileID: -7880727128934437603, guid: 43551f2385fdee049ae17d1fd2037fd2, type: 2}

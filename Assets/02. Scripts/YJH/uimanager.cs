@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class uimanager : MonoBehaviour
 {
     public GameObject escpanel;
-
+  
     private void Awake()
     {
         escpanel.SetActive(false);
@@ -14,14 +14,19 @@ public class uimanager : MonoBehaviour
     public void Update()
     {
         esc();
+       
+       
     }
     public void esc()
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-            Debug.Log("dkdk");
             escpanel.SetActive(true);
+            Time.timeScale = 0;
+            
         }
+      
+       
     }
     public void exitBtn()
     {
@@ -35,8 +40,10 @@ public class uimanager : MonoBehaviour
     }
     public void x()
     {
+        Time.timeScale = 1;
         escpanel.SetActive(false);
     }
+   
    
    
 }

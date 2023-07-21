@@ -4,20 +4,17 @@ using UnityEngine;
 
 public class Option : MonoBehaviour
 {
+    public GameObject ESC;
     public GameObject optionPanel;
-    private bool active;
     public void OpenandClose()
     {
-        if(active==false)
-        {
-            optionPanel.gameObject.SetActive(true);
-            active = true;
-        }
-        else
-        {
-            optionPanel.gameObject.SetActive(false);
-            active = false;
-        }
+        optionPanel.SetActive(false);
+        ESC.SetActive(true);
+    }
+
+    public void StopGame()
+    {
+        Application.Quit();
     }
     
 }

@@ -21,9 +21,14 @@ public class uimanager : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
+            if (escpanel.activeSelf)
+            {
+                Time.timeScale = 1;
+                escpanel.SetActive(false);
+                return;
+            }
             escpanel.SetActive(true);
             Time.timeScale = 0;
-            
         }
       
        
@@ -31,12 +36,11 @@ public class uimanager : MonoBehaviour
     public void exitBtn()
     {
         Application.Quit();
-        Debug.Log("exit");
-         
     }
     public void titlebtn()
     {
         SceneManager.LoadScene("Start");
+        Time.timeScale = 1;
     }
     public void x()
     {

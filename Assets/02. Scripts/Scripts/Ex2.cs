@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class Ex2 : MonoBehaviour
 {
+    public GameObject ESC;
     public GameObject ExPanel2;
-    private bool active2;
     public void OpenandClose()
     {
-        if (active2 == false)
+        if (ExPanel2.activeSelf)
         {
-            ExPanel2.gameObject.SetActive(true);
-            active2 = true;
+            ExPanel2.SetActive(false);
+            ESC.SetActive(true);
         }
         else
         {
-            ExPanel2.gameObject.SetActive(false);
-            active2 = false;
+            ExPanel2.SetActive(true);
+            ESC.SetActive(false);
         }
     }
 }

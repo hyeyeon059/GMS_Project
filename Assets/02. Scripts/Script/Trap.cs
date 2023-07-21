@@ -13,7 +13,7 @@ public class Trap : MonoBehaviour
 
     private void Awake()
     {
-        audioS = FindObjectOfType<AudioSource>();
+
     }
 
     private void OnEnable()
@@ -36,7 +36,7 @@ public class Trap : MonoBehaviour
             Invoke("Des", 2f);
 
             GameManager.Instance.bPlayerMove = false;
-            Invoke("PlayerMove", 3f);
+            Invoke("PlayerMove", 4f);
         }
     }
 

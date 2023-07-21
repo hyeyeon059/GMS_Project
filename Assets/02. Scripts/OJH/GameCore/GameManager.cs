@@ -1,8 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using TMPro.EditorUtilities;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
@@ -43,7 +41,6 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         FloorPos.AddRange(transform.gameObject.GetComponentsInChildren<FloorMove>());
-        Debug.Log(FloorPos);
         if (Instance != null)
             Debug.LogError("2gamemanager");
         Instance = this;

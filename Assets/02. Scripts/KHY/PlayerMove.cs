@@ -7,8 +7,6 @@ public class PlayerMove : MonoBehaviour
     private float constX;
     private float constY;
     private float moveSpeed = 5f;
-    private bool lockpickHave = false;
-    private bool iDCardHave = false;
 
     private Rigidbody2D rb;
     private GameObject flash;
@@ -20,7 +18,6 @@ public class PlayerMove : MonoBehaviour
     private void Awake()
     {
         flash = transform.GetChild(0).gameObject;
-        lockPick = transform.GetChild(1).gameObject;
     }
 
     void Start()
@@ -31,10 +28,6 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
-        for (int i = 0; i < GameManager.Instance.inventoryItem.Count; i++)
-        {
-            Debug.Log(GameManager.Instance.inventoryItem[i]);
-        }
         if (GameManager.Instance.bPlayerMove)
         {
             PlayerMovement();
@@ -118,19 +111,6 @@ public class PlayerMove : MonoBehaviour
                     {
                         tb.gameObject.SetActive(false);
                     }
-                }
-
-                switch (hitInfo.transform.tag)
-                {
-                    case "LockPick":
-                        lockpickHave = true;
-                        lockPick.gameObject.SetActive(lockpickHave);
-                        break;
-                    case "IDCard":
-                        iDCardHave = true;
-                        break;
-                    default:
-                        break;
                 }
             }
         }
